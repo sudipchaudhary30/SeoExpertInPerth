@@ -3,3 +3,12 @@ node_modules/
 .env.local
 .vercel
 dist/
+
+# Documentation and notes
+*.txt
+*.md
+
+# Logs and local artifacts
+*.log
+Thumbs.db
+.DS_Store
