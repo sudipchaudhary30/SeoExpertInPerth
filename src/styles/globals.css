@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;600;700;800&display=swap');
+
+:root {
+  --page-bg: #e6f1fb;
+  --section-bg: #ffffff;
+  --text-strong: #0f172a;
+  --text-body: #334155;
+  --accent: #0ea5e9;
+  --accent-deep: #0284c7;
+  --line-soft: #bfd9f3;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease,
+              opacity 0.25s ease, transform 0.25s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--page-bg);
+  color: var(--text-body);
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+  color: var(--text-strong);
+  line-height: 1.15;
+}
+
+p {
+  color: var(--text-body);
+  max-width: 60ch;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-deep);
+}
+
+.container {
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0);    }
+}
+
+.glass-card {
+  background: #edf6ff;
+  border: 1px solid var(--line-soft);
+}
+
+.fade-in {
+  animation: fadeUp 0.7s ease-out both;
+}
