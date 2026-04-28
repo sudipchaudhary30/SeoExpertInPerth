@@ -33,6 +33,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
+        {/* CookieYes Consent Banner */}
+        <Script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/a2f76f24b688035cea390509/script.js" strategy="beforeInteractive" />
         {/* Google tag (gtag.js) */}
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-98423RYNSR" strategy="afterInteractive" />
         <Script id="gtag-init" strategy="afterInteractive" dangerouslySetInnerHTML={{__html: `
