@@ -1,27 +1,18 @@
 "use client";
-import { useEffect, useState } from "react";
 import { projects } from "@/lib/config";
 
+type PortfolioItem = {
+  id: number;
+  title: string;
+  description: string;
+  technologies: string[];
+  metrics?: string;
+  link?: string;
+  image?: string;
+};
+
 export default function Portfolio() {
-  const [portfolioItems, setPortfolioItems] = useState<any[]>([]);
-
-  useEffect(() => {
-    async function fetchPortfolio() {
-      try {
-        const response = await fetch('/api/admin/portfolio');
-        if (response.ok) {
-          const data = await response.json();
-          setPortfolioItems(data);
-        }
-      } catch (error) {
-        console.error('Failed to fetch portfolio:', error);
-      }
-    }
-
-    fetchPortfolio();
-  }, []);
-
-  const items = portfolioItems.length > 0 ? portfolioItems : projects;
+  const items: PortfolioItem[] = projects;
 
   return (
     <section id="portfolio" className="bg-[#e1eefb] py-16 md:py-24">
