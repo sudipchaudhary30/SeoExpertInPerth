@@ -1,8 +1,5 @@
 # Dependencies
 node_modules/
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
 
 # Environment variables (NEVER commit credentials)
 .env
@@ -13,15 +10,11 @@ pnpm-lock.yaml
 
 # Build outputs
 .next/
-dist/
-build/
-out/
 
 # IDE and editor
 .vscode/
 .idea/
 .DS_Store
-.env.example
 *.swp
 *.swo
 *~
@@ -34,12 +27,10 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
-*.log
 
 # OS artifacts
 Thumbs.db
 .DS_Store
-*.bak
 
 # Deployment
 .vercel
@@ -50,24 +41,6 @@ Thumbs.db
 firebase-adminsdk-*.json
 serviceAccountKey.json
 
-# User-uploaded files (rebuild on deploy)
-public/uploads/**/*
-!public/uploads/.gitkeep
-
 # Temporary files
 *.tmp
 *.temp
-
-# Documentation/setup files (local notes and guides)
-*.md
-*.txt
-
-# Batch scripts (local dev only)
-*.bat
-*.sh
-setup-*.js
-
-# Stray/backup source files
-src_*.tsx
-src_*.ts*.md
-*.txt

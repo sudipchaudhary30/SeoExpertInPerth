@@ -1,18 +1,21 @@
-import { promises as fs } from 'fs';
-import path from 'path';
+import type { Metadata } from "next";
+import { SITE_CONFIG } from "@/lib/config";
 
-async function getBlogPosts() {
-  try {
-    const dataFile = path.join(process.cwd(), 'src/data/blog.json');
-    const data = await fs.readFile(dataFile, 'utf-8');
-    return JSON.parse(data);
-  } catch {
-    return [];
-  }
+// Static blog data (no fs.readFile needed for static export)
+import blogData from "@/data/blog.json";
+
+export function generateMetadata(): Metadata {
+  return {
+    title: "Blog",
+    description: "Articles on SEO, Flutter, and web development by Sudip Chaudhary.",
+    alternates: {
+      canonical: `${SITE_CONFIG.url}/blog`,
+    },
+  };
 }
 
-export default async function Blog() {
-  const posts = await getBlogPosts();
+export default function Blog() {
+  const posts: any[] = blogData || [];
 
   return (
     <div className="bg-gradient-to-b from-[#f9fdff] to-white py-16 md:py-24">

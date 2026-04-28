@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { signOut } from "next-auth/react";
 import BlogManager from "@/components/admin/BlogManager";
 import PortfolioManager from "@/components/admin/PortfolioManager";
 
@@ -23,12 +22,12 @@ export default function AdminPage() {
             </p>
             <h1 className="mt-1 text-2xl font-bold text-[#1A2233]">CMS Admin</h1>
           </div>
-          <button
-            onClick={() => signOut({ callbackUrl: "/admin/login" })}
+          <a
+            href="/"
             className="rounded-full border border-[#f0c9cf] bg-[#fff5f6] px-4 py-2 font-semibold text-[#c13b50] transition hover:bg-[#ffe9ed]"
           >
-            Logout
-          </button>
+            Back to Site
+          </a>
         </div>
       </header>
 

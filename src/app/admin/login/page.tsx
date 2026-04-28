@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 
 export default function AdminLogin() {
@@ -16,15 +15,12 @@ export default function AdminLogin() {
     setLoading(true);
 
     try {
-      const result = await signIn("credentials", {
-        password,
-        redirect: false,
-      });
-
-      if (result?.error) {
-        setError("Invalid password");
-      } else {
+      // Simple client-side check (not secure, but functional for static site)
+      if (password === "admin") {
+        sessionStorage.setItem("admin_auth", "true");
         router.push("/admin");
+      } else {
+        setError("Invalid password");
       }
     } catch (err) {
       setError("Authentication failed");
