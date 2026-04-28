@@ -2,16 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;600;700;800&display=swap');
-
 :root {
-  --page-bg: #e6f1fb;
+  --page-bg: #f0f2f5;
   --section-bg: #ffffff;
-  --text-strong: #0f172a;
-  --text-body: #334155;
-  --accent: #0ea5e9;
-  --accent-deep: #0284c7;
-  --line-soft: #bfd9f3;
+  --text-strong: #1a2233;
+  --text-body: #5a6a7a;
+  --accent: #00d4c8;
+  --accent-deep: #4a6cf7;
+  --line-soft: #cfe0ef;
 }
 
 *, *::before, *::after {
@@ -27,14 +25,14 @@ html {
 body {
   background-color: var(--page-bg);
   color: var(--text-body);
-  font-family: 'Manrope', sans-serif;
+  font-family: var(--font-dm-sans), sans-serif;
   font-weight: 400;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Sora', sans-serif;
+  font-family: var(--font-poppins), sans-serif;
   font-weight: 700;
   color: var(--text-strong);
   line-height: 1.15;
@@ -66,8 +64,9 @@ a:hover {
 }
 
 .glass-card {
-  background: #edf6ff;
+  background: rgba(255, 255, 255, 0.8);
   border: 1px solid var(--line-soft);
+  backdrop-filter: blur(10px);
 }
 
 .fade-in {

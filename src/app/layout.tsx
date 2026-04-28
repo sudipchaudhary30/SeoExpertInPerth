@@ -1,8 +1,24 @@
 import type { Metadata } from "next";
+import { DM_Sans, Poppins } from "next/font/google";
 import { SITE_CONFIG } from "@/lib/config";
+import { AuthProvider } from "@/components/AuthProvider";
+import "../styles/globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import "@/styles/globals.css";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  display: "swap",
+  variable: "--font-poppins",
+});
+
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+  display: "swap",
+  variable: "--font-dm-sans",
+});
 
 export const metadata: Metadata = {
   title: {
@@ -20,10 +36,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({"@context":"https://schema.org","@type":"Person","name":SITE_CONFIG.author,"url":SITE_CONFIG.url,"email":SITE_CONFIG.email,"jobTitle":"SEO Specialist & Flutter Developer"})}} />
       </head>
-      <body className="bg-[#e6f1fb] text-slate-700">
-        <Header />
-        <main className="min-h-screen">{children}</main>
-        <Footer />
+      <body className={`${poppins.variable} ${dmSans.variable} bg-[#f0f2f5] text-[#5A6A7A] antialiased`}>
+        <AuthProvider>
+          <Header />
+          <main className="min-h-screen">{children}</main>
+          <Footer />
+        </AuthProvider>
       </body>
     </html>
   );

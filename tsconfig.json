@@ -16,13 +16,14 @@
     "strictNullChecks": true,
     "strictFunctionTypes": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve",
+    "ignoreDeprecations": "6.0",
+    "noUnusedParameters": false,
     "baseUrl": ".",
     "paths": {
       "@/*": [
@@ -41,11 +42,6 @@
   "include": [
     "src",
     ".next/types/**/*.ts"
-  ],
-  "references": [
-    {
-      "path": "./tsconfig.node.json"
-    }
   ],
   "exclude": [
     "node_modules"

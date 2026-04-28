@@ -3,32 +3,40 @@
   "version": "1.0.0",
   "description": "SEO Specialist & Flutter Developer Portfolio",
   "author": "Sudip Chaudhary",
+  "homepage": "https://www.sudipchaudhary101.com.np",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build && node -e \"require('fs').mkdirSync('out',{recursive:true});require('fs').writeFileSync('out/CNAME','www.sudipchaudhary101.com.np\\n')\"",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
+    "bcryptjs": "^3.0.3",
+    "firebase": "^12.12.1",
+    "gray-matter": "^4.0.3",
+    "next": "^14.0.0",
+    "next-auth": "^4.24.14",
+    "next-mdx-remote": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "next": "^14.0.0",
-    "next-mdx-remote": "^5.0.0",
-    "@hookform/resolvers": "^3.3.4",
     "react-hook-form": "^7.48.1",
-    "zod": "^3.22.4",
-    "gray-matter": "^4.0.3"
+    "uuid": "^9.0.0",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
-    "typescript": "^5.3.3",
-    "tailwindcss": "^3.3.6",
-    "postcss": "^8.4.31",
-    "autoprefixer": "^10.4.16",
     "@types/node": "^20.10.6",
     "@types/react": "^18.2.47",
     "@types/react-dom": "^18.2.18",
+    "autoprefixer": "^10.4.16",
     "eslint": "^8.56.0",
-    "eslint-config-next": "^14.0.0"
+    "eslint-config-next": "^14.0.0",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.6",
+    "typescript": "^5.3.3"
   }
 }
