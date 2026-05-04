@@ -73,7 +73,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
             <h1 className="text-5xl font-bold text-slate-900 mb-4 leading-tight" style={{lineHeight: '1.5'}}>{post.title}</h1>
             
             <div className="flex items-center gap-4 text-slate-600 mb-6">
-              <span>{new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+              <span>{new Date(post.date).toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
               <span>By {post.author || 'Sudip Chaudhary'}</span>
             </div>
             
