@@ -47,59 +47,59 @@ export function generateMetadata(): Metadata {
 
 export default function AboutPage() {
   return (
-    <main className="bg-[#f0f2f5] py-16 md:py-24">
+    <main className="bg-white py-16 md:py-24">
       <div className="container space-y-12">
         <section className="max-w-3xl space-y-5">
-          <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#4A6CF7]">About</p>
-          <h1 className="text-[clamp(2.25rem,5vw,4rem)] font-semibold text-[#1A2233]">
-            SEO Expert in Amsterdam helping Netherlands businesses dominate Google.
+          <p className="text-sm font-semibold uppercase tracking-[0.24em] text-sky-700">About</p>
+          <h1 className="text-[clamp(2.25rem,5vw,4rem)] font-semibold text-slate-900">
+            SEO Expert in Netherlands helping businesses dominate Google search results.
           </h1>
-          <p className="text-lg leading-8 text-[#5A6A7A]">
-            I am Sudip Chaudhary, a specialized SEO expert based in Amsterdam, Netherlands. With 3+ years of hands-on experience, I focus on delivering measurable SEO results for Dutch businesses—from technical optimization and keyword strategy to content architecture and link building. My work centers on combining data-driven SEO practices with a deep understanding of the Dutch digital market.
+          <p className="text-lg leading-8 text-slate-700" style={{lineHeight: '1.5'}}>
+            I am Sudip Chaudhary, a <strong>specialized SEO expert</strong> based in <strong>Amsterdam, Netherlands</strong>. With <strong>3+ years of hands-on experience</strong>, I focus on delivering <strong>measurable SEO results</strong> for Dutch businesses from technical optimization and keyword strategy to content architecture and link building. My work centers on combining data-driven SEO practices with a deep understanding of the Dutch digital market.
           </p>
         </section>
 
         <section className="grid gap-5 lg:grid-cols-[1.05fr_0.95fr]">
-          <div className="glass-card rounded-[1.75rem] p-8 shadow-sm">
-            <h2 className="text-2xl font-semibold text-[#1A2233]">Experience timeline</h2>
+          <div className="border border-sky-200 bg-white p-8 shadow-sm">
+            <h2 className="text-2xl font-semibold text-slate-900">Experience timeline</h2>
             <div className="mt-6 space-y-5">
               {timeline.map((item) => (
-                <article key={item.year} className="rounded-2xl border border-[#dbe8f3] bg-white/70 p-5">
-                  <div className="text-sm font-semibold uppercase tracking-[0.2em] text-[#4A6CF7]">{item.year}</div>
-                  <h3 className="mt-2 text-xl font-semibold text-[#1A2233]">{item.title}</h3>
-                  <p className="mt-2 leading-7 text-[#5A6A7A]">{item.description}</p>
+                <article key={item.year} className="border border-sky-200 bg-white p-5">
+                  <div className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">{item.year}</div>
+                  <h3 className="mt-2 text-xl font-semibold text-slate-900">{item.title}</h3>
+                  <p className="mt-2 leading-relaxed text-slate-700" style={{lineHeight: '1.5'}}>{item.description}</p>
                 </article>
               ))}
             </div>
           </div>
 
-          <div className="glass-card rounded-[1.75rem] p-8 shadow-sm">
-            <h2 className="text-2xl font-semibold text-[#1A2233]">Core skills</h2>
+          <div className="border border-sky-200 bg-white p-8 shadow-sm">
+            <h2 className="text-2xl font-semibold text-slate-900">Core skills</h2>
             <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
               {skills.map((skill) => (
-                <div key={skill} className="rounded-2xl border border-[#dbe8f3] bg-white px-4 py-3 text-center text-sm font-semibold text-[#2E3A4E]">
+                <div key={skill} className="border border-sky-200 bg-white px-4 py-3 text-center text-sm font-semibold text-slate-900">
                   {skill}
                 </div>
               ))}
             </div>
-            <p className="mt-6 leading-7 text-[#5A6A7A]">
+            <p className="mt-6 leading-relaxed text-slate-700" style={{lineHeight: '1.5'}}>
               I like projects where the strategy is practical and the execution is visible: better search rankings,
               better user journeys, and better long-term content systems.
             </p>
           </div>
         </section>
 
-        <section className="rounded-[2rem] bg-[linear-gradient(135deg,#1A2233_0%,#2E3A4E_100%)] p-8 text-white shadow-2xl md:p-10">
-          <h2 className="text-[clamp(1.75rem,4vw,2.5rem)] font-semibold">Need help with SEO or Flutter?</h2>
-          <p className="mt-4 max-w-2xl text-white/80">
-            If you want a search-led portfolio, a mobile app, or a content strategy that brings in better leads,
-            I can help shape the next move.
+        <section className="border border-sky-200 bg-white p-8 text-slate-900 shadow-sm">
+          <h2 className="text-[clamp(1.75rem,4vw,2.5rem)] font-semibold">Ready to improve your SEO?</h2>
+          <p className="mt-4 max-w-2xl text-slate-700">
+            If you want a search-led strategy, technical optimization, or a content plan that brings in better leads,
+            I&apos;m here to help you rank higher and reach more customers.
           </p>
           <div className="mt-6 flex flex-wrap gap-4">
-            <Link href="/contact" className="rounded-full bg-[#00D4C8] px-6 py-3 text-sm font-semibold text-[#1A2233]">
+            <Link href="/contact" className="bg-sky-700 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-800 transition-colors">
               Contact me
             </Link>
-            <Link href="/portfolio" className="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white">
+            <Link href="/portfolio" className="border border-sky-700 px-6 py-3 text-sm font-semibold text-sky-700 hover:bg-sky-50 transition-colors">
               View portfolio
             </Link>
           </div>

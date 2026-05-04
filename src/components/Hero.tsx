@@ -21,7 +21,7 @@ export default function Hero() {
           <div className="space-y-6 pt-14 md:pt-16 lg:pt-20">
             <div>
               <h1 className="max-w-xl text-4xl font-extrabold leading-[1.18] tracking-[0.01em] text-slate-900 md:text-[3.45rem]">
-                SEO Expert in Amsterdam
+                SEO Expert in Netherlands
                 <span className="mt-1 block font-semibold text-sky-700">
                   Technical SEO & Digital Strategy Specialist
                 </span>

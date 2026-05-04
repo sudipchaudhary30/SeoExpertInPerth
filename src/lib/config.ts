@@ -1,7 +1,7 @@
 export const SITE_CONFIG = {
   name: "Sudip Chaudhary",
-  title: "Sudip Chaudhary | SEO Expert Amsterdam | SEO Specialist Netherlands",
-  description: "SEO expert in Amsterdam, Netherlands. Specializing in technical SEO, content strategy, and helping Dutch businesses rank higher on Google. 3+ years experience with proven results.",
+  title: "SEO Expert Netherlands | Best SEO Agency Amsterdam | Sudip Chaudhary",
+  description: "Best SEO expert in Netherlands and Amsterdam. Specializing in technical SEO, content strategy, and helping Dutch businesses rank higher on Google. Proven results from experienced SEO specialist.",
   url: "https://sudipchaudhary101.com.np",
   ogImage: "https://sudipchaudhary101.com.np/og-image.png",
   email: "chsudip28@gmail.com",
@@ -14,16 +14,19 @@ export const SITE_CONFIG = {
   locale: "en_NL",
   location: "Amsterdam, Netherlands",
   keywords: [
+    "SEO expert Netherlands",
     "SEO expert Amsterdam",
+    "best SEO agency Netherlands",
     "SEO specialist Netherlands",
     "SEO services Amsterdam",
     "technical SEO Netherlands",
     "local SEO Amsterdam",
     "SEO consultant Amsterdam",
     "Dutch SEO expert",
-    "content strategy Netherlands",
-    "keyword research Amsterdam",
-    "SEO agency Netherlands"
+    "top SEO agency Amsterdam",
+    "search engine optimization Netherlands",
+    "SEO services Netherlands",
+    "professional SEO Amsterdam"
   ]
 } as const;
 

@@ -31,7 +31,7 @@ export default function ContactForm() {
           <input type="text" name="subject" placeholder="Subject" value={formData.subject} onChange={(e) => setFormData({...formData, subject: e.target.value})} required className="w-full border border-sky-300 bg-white px-4 py-3 text-slate-800 placeholder-slate-400 focus:border-sky-500 focus:outline-none transition-colors" />
           <textarea name="message" placeholder="Message" rows={6} value={formData.message} onChange={(e) => setFormData({...formData, message: e.target.value})} required className="w-full border border-sky-300 bg-white px-4 py-3 text-slate-800 placeholder-slate-400 focus:border-sky-500 focus:outline-none transition-colors" />
           <button type="submit" className="w-full border border-sky-800 bg-sky-800 py-3 font-semibold text-white transition-colors duration-200 hover:bg-sky-900">{status === "loading" ? "Sending..." : "Send Message"}</button>
-          {msg && <div className={status === "success" ? "bg-green-100 text-green-800 p-4 rounded-lg text-center font-inter" : "bg-red-100 text-red-800 p-4 rounded-lg text-center font-inter"}>{msg}</div>}
+          {msg && <div className={status === "success" ? "bg-green-100 text-green-800 p-4 text-center font-inter" : "bg-red-100 text-red-800 p-4 text-center font-inter"}>{msg}</div>}
         </form>
       </div>
     </section>

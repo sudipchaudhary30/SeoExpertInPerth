@@ -1,13 +1,4 @@
-import { Metadata } from "next";
-import { generateMetadata } from "@/lib/seo";
 import Link from "next/link";
-
-export const metadata: Metadata = generateMetadata({
-  title: "Blog - Articles on SEO & Development",
-  description: "Read articles about SEO, Flutter development, web technologies, and digital marketing tips.",
-  url: "https://sudipchaudhary101.com.np/blog",
-  type: "website",
-});
 
 const blogPosts = [
   {

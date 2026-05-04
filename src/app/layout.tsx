@@ -28,11 +28,15 @@ export const metadata: Metadata = {
   },
   description: SITE_CONFIG.description,
   keywords: SITE_CONFIG.keywords.join(", "),
-  viewport: "width=device-width, initial-scale=1",
   robots: "index, follow",
   authors: [{ name: SITE_CONFIG.author }],
   creator: SITE_CONFIG.author,
   metadataBase: new URL(SITE_CONFIG.url),
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -50,7 +54,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           gtag('config', 'G-98423RYNSR');
         `}} />
         <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#4A6CF7" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
           "@context": "https://schema.org",

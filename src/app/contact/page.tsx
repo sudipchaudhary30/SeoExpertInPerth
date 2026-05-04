@@ -27,10 +27,10 @@ export default function ContactPage() {
             Let&apos;s improve your search visibility.
           </h1>
           <p className="text-lg leading-8 text-[#5A6A7A]">
-            Whether you need SEO strategy, technical optimization, content planning, or a complete digital refresh—I'm here to help Netherlands businesses rank higher on Google and reach more customers.
+            Whether you need SEO strategy, technical optimization, content planning, or a complete digital refresh, I&apos;m here to help Netherlands businesses rank higher on Google and reach more customers.
           </p>
 
-          <div className="glass-card rounded-[1.75rem] p-6 shadow-sm">
+          <div className="glass-card border border-[#dbe8f3] bg-white p-6 shadow-sm">
             <h2 className="text-xl font-semibold text-[#1A2233]">Direct contact</h2>
             <div className="mt-4 space-y-3 text-[#5A6A7A]">
               <p>Email: <a href="mailto:chsudip28@gmail.com" className="text-sky-600 hover:underline">chsudip28@gmail.com</a></p>
@@ -45,7 +45,7 @@ export default function ContactPage() {
           </div>
         </section>
 
-        <section className="rounded-[2rem] bg-white p-4 shadow-xl md:p-6">
+        <section className="border border-[#dbe8f3] bg-white p-4 shadow-xl md:p-6">
           <ContactForm />
         </section>
       </div>

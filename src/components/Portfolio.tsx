@@ -20,9 +20,9 @@ export default function Portfolio() {
         <h2 className="mb-12 text-4xl font-bold text-slate-900 md:text-5xl">Projects & Case Studies</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {items.map((project) => (
-            <div key={project.id} className="border border-sky-200 bg-[#f7fbff] p-6 transition-colors hover:bg-[#edf6ff]">
+            <div key={project.id} className="border border-sky-200 bg-[#f7fbff] p-6 transition-colors hover:bg-[#edf6ff] hover:shadow-md">
               {project.image && (
-                <img src={project.image} alt={project.title} className="w-full h-32 object-cover rounded mb-4" />
+                <div className="w-full h-32 bg-sky-100 mb-4 flex items-center justify-center text-sky-600 text-sm">Image</div>
               )}
               <h3 className="mb-3 text-xl font-bold text-slate-900">{project.title}</h3>
               <p className="mb-4 text-slate-600">{project.description}</p>
