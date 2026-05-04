@@ -46,7 +46,7 @@ export default function Blog() {
                       <span className="text-sm text-slate-500">{post.readTime} min read</span>
                     </div>
                     <h2 className="text-2xl font-bold text-slate-900 mb-2 hover:text-sky-600" style={{lineHeight: '1.5'}}>{post.title}</h2>
-                    <p className="text-slate-500 text-sm mb-3">{new Date(post.date).toLocaleDateString('nl-NL', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+                    <p className="text-slate-500 text-sm mb-3">{new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
                     <p className="text-slate-600 mb-4" style={{lineHeight: '1.5'}}>{post.excerpt}</p>
                     <div className="flex flex-wrap gap-2 mb-3">
                       {post.keywords && post.keywords.slice(0, 3).map((keyword: string) => (
