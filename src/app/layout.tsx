@@ -54,6 +54,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           gtag('config', 'G-98423RYNSR');
         `}} />
         <meta charSet="utf-8" />
+        <link rel="icon" href="/images/sudip%20profile%20no%20bg.png" />
+        <link rel="shortcut icon" href="/images/sudip%20profile%20no%20bg.png" />
         <meta name="theme-color" content="#4A6CF7" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
           "@context": "https://schema.org",
