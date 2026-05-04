@@ -27,6 +27,12 @@ export const metadata: Metadata = {
     template: "%s | Sudip Chaudhary",
   },
   description: SITE_CONFIG.description,
+  keywords: SITE_CONFIG.keywords.join(", "),
+  viewport: "width=device-width, initial-scale=1",
+  robots: "index, follow",
+  authors: [{ name: SITE_CONFIG.author }],
+  creator: SITE_CONFIG.author,
+  metadataBase: new URL(SITE_CONFIG.url),
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -45,7 +51,52 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         `}} />
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({"@context":"https://schema.org","@type":"Person","name":SITE_CONFIG.author,"url":SITE_CONFIG.url,"email":SITE_CONFIG.email,"jobTitle":"SEO Specialist & Flutter Developer"})}} />
+        <meta name="theme-color" content="#4A6CF7" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": SITE_CONFIG.author,
+          "url": SITE_CONFIG.url,
+          "email": SITE_CONFIG.email,
+          "jobTitle": "SEO Expert & Digital Strategist",
+          "areaServed": "NL",
+          "knowsAbout": ["Search Engine Optimization", "Technical SEO", "Content Strategy", "Local SEO", "Digital Marketing"],
+          "worksFor": {
+            "@type": "Organization",
+            "name": SITE_CONFIG.author,
+            "url": SITE_CONFIG.url,
+            "location": {
+              "@type": "Place",
+              "name": SITE_CONFIG.location,
+              "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "NL",
+                "addressRegion": "North Holland"
+              }
+            }
+          },
+          "sameAs": Object.values(SITE_CONFIG.social)
+        })}} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": SITE_CONFIG.author,
+          "description": "SEO Expert and Digital Strategy Specialist in Amsterdam, Netherlands",
+          "url": SITE_CONFIG.url,
+          "email": SITE_CONFIG.email,
+          "areaServed": "NL",
+          "serviceType": ["SEO Services", "Content Strategy", "Technical SEO", "Local SEO"],
+          "location": {
+            "@type": "Place",
+            "name": "Amsterdam",
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "NL",
+              "addressRegion": "North Holland"
+            }
+          },
+          "priceRange": "$$"
+        })}} />
       </head>
       <body className={`${poppins.variable} ${dmSans.variable} bg-[#f0f2f5] text-[#5A6A7A] antialiased`}>
         <AuthProvider>

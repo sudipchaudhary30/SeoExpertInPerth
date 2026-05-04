@@ -4,10 +4,15 @@ import { SITE_CONFIG } from "@/lib/config";
 
 export function generateMetadata(): Metadata {
   return {
-    title: "Contact Sudip Chaudhary",
-    description: "Contact Sudip Chaudhary for SEO, Flutter, and portfolio work.",
+    title: "Contact SEO Expert Amsterdam | Sudip Chaudhary",
+    description: "Get in touch with Sudip Chaudhary, SEO expert in Amsterdam. Free consultation for Netherlands businesses looking to improve their search visibility and rankings.",
     alternates: {
       canonical: `${SITE_CONFIG.url}/contact`,
+    },
+    openGraph: {
+      title: "Contact SEO Expert Amsterdam | Sudip Chaudhary",
+      description: "Schedule a free SEO consultation. Sudip Chaudhary helps Netherlands businesses rank higher on Google.",
+      url: `${SITE_CONFIG.url}/contact`,
     },
   };
 }
@@ -19,20 +24,22 @@ export default function ContactPage() {
         <section className="space-y-5">
           <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#4A6CF7]">Contact</p>
           <h1 className="text-[clamp(2.25rem,5vw,4rem)] font-semibold text-[#1A2233]">
-            Let&apos;s build something search-friendly and polished.
+            Let&apos;s improve your search visibility.
           </h1>
           <p className="text-lg leading-8 text-[#5A6A7A]">
-            Reach out if you need help with SEO, Flutter development, content planning, or a website refresh that
-            is easier to trust and easier to find.
+            Whether you need SEO strategy, technical optimization, content planning, or a complete digital refresh—I'm here to help Netherlands businesses rank higher on Google and reach more customers.
           </p>
 
           <div className="glass-card rounded-[1.75rem] p-6 shadow-sm">
             <h2 className="text-xl font-semibold text-[#1A2233]">Direct contact</h2>
             <div className="mt-4 space-y-3 text-[#5A6A7A]">
-              <p>Email: <a href="mailto:chsudip28@gmail.com">chsudip28@gmail.com</a></p>
-              <p>Location: Kathmandu, Nepal</p>
+              <p>Email: <a href="mailto:chsudip28@gmail.com" className="text-sky-600 hover:underline">chsudip28@gmail.com</a></p>
+              <p>Location: <strong>Amsterdam, Netherlands</strong></p>
               <p>
-                LinkedIn: <a href="https://www.linkedin.com/in/sudip-chaudhary" target="_blank" rel="noreferrer">linkedin.com/in/sudip-chaudhary</a>
+                LinkedIn: <a href="https://www.linkedin.com/in/sudip-chaudhary" target="_blank" rel="noreferrer" className="text-sky-600 hover:underline">linkedin.com/in/sudip-chaudhary</a>
+              </p>
+              <p className="pt-4 border-t border-[#dbe8f3]">
+                <strong>Free 30-minute consultation available</strong> to discuss your SEO goals and website improvement opportunities.
               </p>
             </div>
           </div>

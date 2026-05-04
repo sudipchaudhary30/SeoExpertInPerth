@@ -6,14 +6,15 @@ import Portfolio from "@/components/Portfolio";
 import ContactForm from "@/components/ContactForm";
 export function generateMetadata(): Metadata {
   return {
-    title: "Sudip Chaudhary | SEO Specialist & Flutter Developer",
-    description: SITE_CONFIG.description,
+    title: "SEO Expert Amsterdam | Sudip Chaudhary | Netherlands SEO Specialist",
+    description: "Sudip Chaudhary - Expert SEO specialist based in Amsterdam, Netherlands. Helping Dutch businesses rank higher on Google with technical SEO, content strategy, and proven results. 3+ years experience.",
+    keywords: "SEO expert Amsterdam, SEO specialist Netherlands, technical SEO, content strategy, Google ranking",
     alternates: {
       canonical: SITE_CONFIG.url,
     },
     openGraph: {
-      title: "Sudip Chaudhary | SEO Specialist & Flutter Developer",
-      description: SITE_CONFIG.description,
+      title: "SEO Expert Amsterdam | Sudip Chaudhary | Netherlands SEO Specialist",
+      description: "Sudip Chaudhary - Expert SEO specialist based in Amsterdam, Netherlands. Helping Dutch businesses rank higher on Google with technical SEO, content strategy, and proven results.",
       url: SITE_CONFIG.url,
       siteName: SITE_CONFIG.name,
       locale: SITE_CONFIG.locale,

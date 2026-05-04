@@ -44,3 +44,9 @@ serviceAccountKey.json
 # Temporary files
 *.tmp
 *.temp
+
+# SEO documentation (local only)
+SEO_QUICK_START_GUIDE.md
+INTERNAL_LINKING_STRATEGY.md
+SEO_OPTIMIZATION_COMPLETE.md
+README_SEO.md

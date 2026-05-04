@@ -4,37 +4,41 @@ import { SITE_CONFIG } from "@/lib/config";
 
 const skills = [
   "Technical SEO",
-  "Content strategy",
-  "Keyword research",
-  "Flutter UI development",
-  "Conversion-focused copy",
-  "Performance optimization",
-  "Schema markup",
-  "Analytics reporting",
+  "Keyword Research",
+  "Content Strategy",
+  "Local SEO Amsterdam",
+  "GDPR & SEO",
+  "Schema Markup",
+  "Core Web Vitals",
+  "Link Building",
+  "Analytics & Reporting",
+  "Dutch Market Expertise",
+  "Conversion Optimization",
+  "Competitive Analysis",
 ];
 
 const timeline = [
   {
     year: "2022",
-    title: "Started building SEO systems",
-    description: "Focused on audits, content plans, and search visibility for local and global clients.",
+    title: "Started specializing in technical SEO",
+    description: "Began focusing on comprehensive audits, technical optimization, content strategy, and search visibility for international clients and Dutch businesses.",
   },
   {
     year: "2024",
-    title: "Expanded into Flutter development",
-    description: "Began shipping mobile interfaces with the same attention to structure and clarity.",
+    title: "Established as SEO Expert in Amsterdam",
+    description: "Relocated to Amsterdam and began working directly with Netherlands businesses, understanding local market dynamics and Dutch search behavior.",
   },
   {
     year: "Now",
-    title: "Combining traffic and product thinking",
-    description: "Helping brands create content, experiences, and landing pages that are easier to trust.",
+    title: "Leading SEO for Netherlands market",
+    description: "Helping Dutch businesses and international brands reach the Netherlands market through data-backed SEO, content strategy, and sustainable organic growth.",
   },
 ];
 
 export function generateMetadata(): Metadata {
   return {
-    title: "About Sudip Chaudhary",
-    description: "Learn more about Sudip Chaudhary, an SEO Specialist and Flutter Developer based in Nepal.",
+    title: "About Sudip Chaudhary | SEO Expert Amsterdam",
+    description: "Sudip Chaudhary - SEO expert based in Amsterdam, Netherlands. Specializing in technical SEO, content strategy, and helping Dutch businesses achieve better search rankings. 3+ years of proven SEO results.",
     alternates: {
       canonical: `${SITE_CONFIG.url}/about`,
     },
@@ -48,12 +52,10 @@ export default function AboutPage() {
         <section className="max-w-3xl space-y-5">
           <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#4A6CF7]">About</p>
           <h1 className="text-[clamp(2.25rem,5vw,4rem)] font-semibold text-[#1A2233]">
-            SEO Specialist and Flutter Developer focused on useful, measurable work.
+            SEO Expert in Amsterdam helping Netherlands businesses dominate Google.
           </h1>
           <p className="text-lg leading-8 text-[#5A6A7A]">
-            I am Sudip Chaudhary, based in Kathmandu, Nepal. My work sits at the intersection of search visibility,
-            clear content, and product-minded development. The goal is to help clients show up well, communicate
-            clearly, and convert traffic into real opportunities.
+            I am Sudip Chaudhary, a specialized SEO expert based in Amsterdam, Netherlands. With 3+ years of hands-on experience, I focus on delivering measurable SEO results for Dutch businesses—from technical optimization and keyword strategy to content architecture and link building. My work centers on combining data-driven SEO practices with a deep understanding of the Dutch digital market.
           </p>
         </section>
 

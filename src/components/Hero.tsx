@@ -21,15 +21,15 @@ export default function Hero() {
           <div className="space-y-6 pt-14 md:pt-16 lg:pt-20">
             <div>
               <h1 className="max-w-xl text-4xl font-extrabold leading-[1.18] tracking-[0.01em] text-slate-900 md:text-[3.45rem]">
-                Sudip Chaudhary,
+                SEO Expert in Amsterdam
                 <span className="mt-1 block font-semibold text-sky-700">
-                  SEO Specialist and Flutter Developer
+                  Technical SEO & Digital Strategy Specialist
                 </span>
               </h1>
             </div>
 
             <p className="max-w-xl text-[1.08rem] leading-8 text-slate-700">
-              I help businesses grow with SEO and build clean, effective digital products.
+              I help Amsterdam and Netherlands businesses rank higher on Google with proven SEO strategies, technical optimization, and data-driven content.
             </p>
 
             <div className="flex flex-wrap items-center gap-3 pt-1">
