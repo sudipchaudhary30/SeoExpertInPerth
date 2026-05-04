@@ -29,7 +29,7 @@ export default function Hero() {
             </div>
 
             <p className="max-w-xl text-[1.08rem] leading-8 text-slate-700">
-              I help Amsterdam and Netherlands businesses rank higher on Google with proven SEO strategies, technical optimization, and data-driven content.
+              I help businesses across the Netherlands rank higher on Google through proven SEO strategy, technical optimization, and data-driven content that earns visibility and leads.
             </p>
 
             <div className="flex flex-wrap items-center gap-3 pt-1">
