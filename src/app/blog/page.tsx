@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
-// Static blog data (no fs.readFile needed for static export)
-import blogData from "@/data/blog.json";
+// Static blog data (build-time only, safe for static export)
+import blogData from "@/data/blog";
 
 export function generateMetadata(): Metadata {
   return {

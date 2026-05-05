@@ -20,7 +20,7 @@ export default function AdminPage() {
             <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[#4A6CF7]">
               Admin workspace
             </p>
-            <h1 className="mt-1 text-2xl font-bold text-[#1A2233]">CMS Admin</h1>
+            <h1 className="mt-1 text-2xl font-bold text-[#1A2233]">Static CMS Preview</h1>
           </div>
           <a
             href="/"
@@ -78,10 +78,11 @@ export default function AdminPage() {
             </p>
             <h2 className="text-2xl font-bold text-[#1A2233]">Settings</h2>
             <p className="mt-2 text-[#5A6A7A]">
-              Settings panel coming soon. For now, edit config in{" "}
+              This site is exported statically. For now, edit config in{" "}
               <code className="rounded bg-[#f0f4f9] px-2 py-1 font-mono text-[#1A2233]">
                 src/lib/config.ts
               </code>
+              , update the blog source in <code className="rounded bg-[#f0f4f9] px-2 py-1 font-mono text-[#1A2233]">src/data/blog.ts</code>, and rebuild.
             </p>
           </div>
         )}

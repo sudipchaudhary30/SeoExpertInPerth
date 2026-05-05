@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
-import blogData from "@/data/blog.json";
+import blogData from "@/data/blog";
 
 // Generate static paths for all blog posts
 export function generateStaticParams() {
@@ -103,6 +103,24 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
               </Link>
             </div>
           </section>
+
+          {post.relatedLinks && post.relatedLinks.length > 0 && (
+            <section className="border border-sky-200 bg-white p-8 shadow-sm mb-12">
+              <p className="text-sm font-semibold uppercase tracking-[0.24em] text-sky-700">Related links</p>
+              <h2 className="mt-3 text-2xl font-bold text-slate-900">Continue reading through the SEO cluster</h2>
+              <div className="mt-5 flex flex-wrap gap-3">
+                {post.relatedLinks.map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className="border border-sky-200 bg-sky-50 px-4 py-2 text-sm font-semibold text-sky-700 transition-colors hover:border-sky-300 hover:bg-sky-100"
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
         </article>
 
         <div className="border-t border-sky-200 pt-8 mt-12">
@@ -237,6 +255,7 @@ function formatMarkdown(markdown: string): string {
   if (!markdown) return '';
   
   let html = markdown
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="font-semibold text-sky-700 underline decoration-sky-300 underline-offset-4 hover:text-sky-800">$1</a>')
     .replace(/^### (.*?)$/gm, '<h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">$1</h3>')
     .replace(/^## (.*?)$/gm, '<h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">$1</h2>')
     .replace(/^# (.*?)$/gm, '<h1 class="text-3xl font-bold text-slate-900 mt-8 mb-4">$1</h1>')
