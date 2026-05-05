@@ -2,8 +2,14 @@
 
 import portfolioData from "@/data/portfolio.json";
 
+interface PortfolioItem {
+  id: string;
+  title: string;
+  description: string;
+}
+
 export default function PortfolioManager() {
-  const items = portfolioData || [];
+  const items: PortfolioItem[] = portfolioData || [];
 
   return (
     <div className="space-y-6">

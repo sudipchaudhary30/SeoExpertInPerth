@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "error";
+
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 

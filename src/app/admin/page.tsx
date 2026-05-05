@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "error";
+
 import { useState } from "react";
 import BlogManager from "@/components/admin/BlogManager";
 import PortfolioManager from "@/components/admin/PortfolioManager";
