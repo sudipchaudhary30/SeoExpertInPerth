@@ -37,8 +37,8 @@ const timeline = [
 
 export function generateMetadata(): Metadata {
   return {
-    title: "About Sudip Chaudhary | SEO Expert Amsterdam",
-    description: "Sudip Chaudhary - SEO expert based in Amsterdam, Netherlands. Specializing in technical SEO, content strategy, and helping Dutch businesses achieve better search rankings. 3+ years of proven SEO results.",
+    title: "About Sudip Chaudhary | SEO Expert Amsterdam & Netherlands",
+    description: "Sudip Chaudhary is an SEO expert in Amsterdam, Netherlands, helping Dutch businesses grow with technical SEO, local SEO, content strategy, and measurable organic search results.",
     alternates: {
       canonical: `${SITE_CONFIG.url}/about`,
     },
@@ -52,10 +52,10 @@ export default function AboutPage() {
         <section className="max-w-3xl space-y-5">
           <p className="text-sm font-semibold uppercase tracking-[0.24em] text-sky-700">About</p>
           <h1 className="text-[clamp(2.25rem,5vw,4rem)] font-semibold text-slate-900">
-            SEO Expert in Netherlands helping businesses dominate Google search results.
+            SEO Expert in Amsterdam helping Netherlands businesses win more Google visibility.
           </h1>
           <p className="text-lg leading-8 text-slate-700" style={{lineHeight: '1.5'}}>
-            I am Sudip Chaudhary, a <strong>specialized SEO expert</strong> based in <strong>Amsterdam, Netherlands</strong>. With <strong>3+ years of hands-on experience</strong>, I focus on delivering <strong>measurable SEO results</strong> for Dutch businesses from technical optimization and keyword strategy to content architecture and link building. My work centers on combining data-driven SEO practices with a deep understanding of the Dutch digital market.
+            I am Sudip Chaudhary, a <strong>specialized SEO expert</strong> based in <strong>Amsterdam, Netherlands</strong>. With <strong>3+ years of hands-on experience</strong>, I focus on delivering <strong>measurable SEO results</strong> for Dutch businesses through technical optimization, local SEO, keyword strategy, content architecture, and link building. My work is built for businesses that want to rank for terms like <strong>SEO expert Amsterdam</strong>, <strong>SEO expert Netherlands</strong>, and <strong>SEO specialist Netherlands</strong>.
           </p>
         </section>
 
@@ -93,7 +93,7 @@ export default function AboutPage() {
           <h2 className="text-[clamp(1.75rem,4vw,2.5rem)] font-semibold">Ready to improve your SEO?</h2>
           <p className="mt-4 max-w-2xl text-slate-700">
             If you want a search-led strategy, technical optimization, or a content plan that brings in better leads,
-            I&apos;m here to help you rank higher and reach more customers.
+            I&apos;m here to help you rank higher and reach more customers across Amsterdam and the Netherlands.
           </p>
           <div className="mt-6 flex flex-wrap gap-4">
             <Link href="/contact" className="bg-sky-700 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-800 transition-colors">
@@ -102,6 +102,24 @@ export default function AboutPage() {
             <Link href="/portfolio" className="border border-sky-700 px-6 py-3 text-sm font-semibold text-sky-700 hover:bg-sky-50 transition-colors">
               View portfolio
             </Link>
+            <Link href="/seo-services" className="border border-sky-700 px-6 py-3 text-sm font-semibold text-sky-700 hover:bg-sky-50 transition-colors">
+              SEO services
+            </Link>
+          </div>
+
+          <div className="mt-8 border-t border-sky-100 pt-6">
+            <h3 className="text-xl font-semibold text-slate-900">Supporting content</h3>
+            <div className="mt-4 grid gap-3 md:grid-cols-3">
+              <Link href="/blog/seo-expert-amsterdam-netherlands" className="border border-sky-100 bg-sky-50 p-4 text-sm font-semibold text-slate-900 transition-colors hover:border-sky-300 hover:bg-sky-100">
+                Why hire an SEO expert in Amsterdam
+              </Link>
+              <Link href="/blog/technical-seo-netherlands-2024" className="border border-sky-100 bg-sky-50 p-4 text-sm font-semibold text-slate-900 transition-colors hover:border-sky-300 hover:bg-sky-100">
+                Technical SEO for Netherlands businesses
+              </Link>
+              <Link href="/blog/local-seo-amsterdam-google-business" className="border border-sky-100 bg-sky-50 p-4 text-sm font-semibold text-slate-900 transition-colors hover:border-sky-300 hover:bg-sky-100">
+                Local SEO Amsterdam guide
+              </Link>
+            </div>
           </div>
         </section>
       </div>

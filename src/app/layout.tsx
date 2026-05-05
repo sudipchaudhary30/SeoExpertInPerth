@@ -32,6 +32,25 @@ export const metadata: Metadata = {
   authors: [{ name: SITE_CONFIG.author }],
   creator: SITE_CONFIG.author,
   metadataBase: new URL(SITE_CONFIG.url),
+  icons: {
+    icon: [
+      {
+        url: "/images/favicon/favicon.ico",
+      },
+      {
+        url: "/images/favicon/favicon.svg",
+        type: "image/svg+xml",
+      },
+      {
+        url: "/images/favicon/Seo_expert_in_netherlands_favicon-96x96.png",
+        type: "image/png",
+        sizes: "96x96",
+      },
+    ],
+    apple: "/images/favicon/apple-touch-icon.png",
+    shortcut: "/images/favicon/favicon.ico",
+  },
+  manifest: "/images/favicon/site.webmanifest",
 };
 
 export const viewport = {
@@ -54,8 +73,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           gtag('config', 'G-98423RYNSR');
         `}} />
         <meta charSet="utf-8" />
-        <link rel="icon" href="/images/sudip%20profile%20no%20bg.png" />
-        <link rel="shortcut icon" href="/images/sudip%20profile%20no%20bg.png" />
         <meta name="theme-color" content="#4A6CF7" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
           "@context": "https://schema.org",

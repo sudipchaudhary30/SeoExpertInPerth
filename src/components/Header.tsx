@@ -19,7 +19,7 @@ export default function Header() {
         </button>
         
         <div className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-8 md:flex">
-          {[["Home", "/"], ["About", "/about"], ["Portfolio", "/portfolio"], ["Blog", "/blog"]].map(([label, href]) => (
+          {[["Home", "/"], ["SEO Services", "/seo-services"], ["About", "/about"], ["Portfolio", "/portfolio"], ["Blog", "/blog"]].map(([label, href]) => (
             <Link 
               key={href} 
               href={href} 
@@ -60,7 +60,7 @@ export default function Header() {
       {isOpen && (
         <div className="border-t border-sky-200 bg-[#eaf4ff] px-4 py-4 md:hidden">
           <div className="container mx-auto flex flex-col gap-3">
-            {[[("Home"), "/"], [("About"), "/about"], [("Portfolio"), "/portfolio"], [("Blog"), "/blog"]].map(([label, href]) => (
+                {[[("Home"), "/"], [("SEO Services"), "/seo-services"], [("About"), "/about"], [("Portfolio"), "/portfolio"], [("Blog"), "/blog"]].map(([label, href]) => (
               <Link
                 key={href}
                 href={href}

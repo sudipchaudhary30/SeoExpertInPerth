@@ -16,7 +16,9 @@ export const SITE_CONFIG = {
   keywords: [
     "SEO expert Netherlands",
     "SEO expert Amsterdam",
+    "Best SEO agency in Netherlands",
     "best SEO agency Netherlands",
+    "Best Digital Marketing Agency in Netherlands",
     "SEO specialist Netherlands",
     "SEO services Amsterdam",
     "technical SEO Netherlands",

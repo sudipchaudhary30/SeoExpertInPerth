@@ -21,15 +21,15 @@ export default function Hero() {
           <div className="space-y-6 pt-14 md:pt-16 lg:pt-20">
             <div>
               <h1 className="max-w-xl text-4xl font-extrabold leading-[1.18] tracking-[0.01em] text-slate-900 md:text-[3.45rem]">
-                SEO Expert in Netherlands
+                SEO Expert in Amsterdam, Netherlands
                 <span className="mt-1 block font-semibold text-sky-700">
-                  Technical SEO & Digital Strategy Specialist
+                  Technical SEO, Local Search, and Content Strategy
                 </span>
               </h1>
             </div>
 
             <p className="max-w-xl text-[1.08rem] leading-8 text-slate-700">
-              I help businesses across the Netherlands rank higher on Google through proven SEO strategy, technical optimization, and data-driven content that earns visibility and leads.
+              I help businesses across the Netherlands rank higher on Google with technical SEO, local SEO, and content strategy built for companies that want measurable organic growth.
             </p>
 
             <div className="flex flex-wrap items-center gap-3 pt-1">

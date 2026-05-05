@@ -87,6 +87,22 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
           <div className="prose prose-slate max-w-none mb-12 leading-relaxed">
             <div className="text-slate-700 space-y-4" dangerouslySetInnerHTML={{ __html: articleContent }} />
           </div>
+
+          <section className="border border-sky-200 bg-white p-8 shadow-sm mb-12">
+            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-sky-700">Next step</p>
+            <h2 className="mt-3 text-2xl font-bold text-slate-900">Turn this strategy into rankings for your own website</h2>
+            <p className="mt-4 leading-7 text-slate-600">
+              If you want the same approach applied to your site, review the services page and then contact me for a practical SEO plan.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-3">
+              <Link href="/seo-services" className="bg-sky-700 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-sky-800">
+                SEO services
+              </Link>
+              <Link href="/contact" className="border border-sky-700 px-6 py-3 text-sm font-semibold text-sky-700 transition-colors hover:bg-sky-50">
+                Contact me
+              </Link>
+            </div>
+          </section>
         </article>
 
         <div className="border-t border-sky-200 pt-8 mt-12">
@@ -104,6 +120,9 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
           >
             Get Free Consultation
           </Link>
+          <div className="mt-4 text-sm text-slate-500">
+            Or start with the <Link href="/seo-services" className="text-sky-600 font-semibold hover:text-sky-700">SEO services page</Link> first.
+          </div>
         </section>
       </div>
     </div>

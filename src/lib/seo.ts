@@ -23,6 +23,8 @@ export function generateMetadata(options: {
     keywords: [
       "SEO expert Amsterdam",
       "SEO specialist Netherlands",
+      "Best SEO agency in Netherlands",
+      "Best Digital Marketing Agency in Netherlands",
       "technical SEO",
       "content strategy",
       "Flutter developer",
