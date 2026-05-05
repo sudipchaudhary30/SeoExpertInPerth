@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { DM_Sans, Poppins } from "next/font/google";
 import { SITE_CONFIG } from "@/lib/config";
-import { AuthProvider } from "@/components/AuthProvider";
 import "../styles/globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -121,11 +120,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         })}} />
       </head>
       <body className={`${poppins.variable} ${dmSans.variable} bg-[#f0f2f5] text-[#5A6A7A] antialiased`}>
-        <AuthProvider>
-          <Header />
-          <main className="min-h-screen">{children}</main>
-          <Footer />
-        </AuthProvider>
+        <Header />
+        <main className="min-h-screen">{children}</main>
+        <Footer />
       </body>
     </html>
   );
