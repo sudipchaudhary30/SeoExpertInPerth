@@ -46,11 +46,31 @@ export default function Home() {
     url: SITE_CONFIG.url,
     sameAs: Object.values(SITE_CONFIG.social),
   };
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: SITE_CONFIG.name,
+    url: SITE_CONFIG.url,
+    telephone: "+977 9808376303",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Kathmandu",
+      addressLocality: "Kathmandu",
+      addressRegion: "Bagmati",
+      postalCode: "44600",
+      addressCountry: "NP",
+    },
+    sameAs: Object.values(SITE_CONFIG.social),
+  };
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
       />
       <Hero />
       <section className="border-b border-sky-100 bg-white py-10">

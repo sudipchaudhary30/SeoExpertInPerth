@@ -29,7 +29,7 @@ export default function HowToRankNepal() {
         </ul>
 
         <h2 className="mt-6 text-xl font-semibold">Understand user intent in Nepal</h2>
-        <p className="mt-3 text-slate-700">Before you optimize, ask: are searchers in Nepal looking for services, local businesses, how-to answers, or products? Queries from Kathmandu often include location modifiers ("near me", "Kathmandu", "Nepal"). Match content to that intent — transactional pages for service keywords and long-form guides for informational queries.</p>
+        <p className="mt-3 text-slate-700">Before you optimize, ask: are searchers in Nepal looking for services, local businesses, how-to answers, or products? Queries from Kathmandu often include location modifiers (&quot;near me&quot;, &quot;Kathmandu&quot;, &quot;Nepal&quot;). Match content to that intent — transactional pages for service keywords and long-form guides for informational queries.</p>
 
         <h2 className="mt-6 text-xl font-semibold">Technical SEO essentials</h2>
         <p className="mt-3 text-slate-700">Technical issues block rankings. Use the following prioritized fixes:</p>
@@ -52,7 +52,7 @@ export default function HowToRankNepal() {
         </ul>
 
         <h2 className="mt-6 text-xl font-semibold">Keyword strategy for Google Nepal</h2>
-        <p className="mt-3 text-slate-700">Start with a seed list and expand using Google Suggest, People Also Ask, and local modifiers ("Kathmandu", "Nepal"). Prioritize high-intent commercial keywords for service pages and informational keywords for blog posts. Keep keyword density natural (1–1.5%).</p>
+        <p className="mt-3 text-slate-700">Start with a seed list and expand using Google Suggest, People Also Ask, and local modifiers (&quot;Kathmandu&quot;, &quot;Nepal&quot;). Prioritize high-intent commercial keywords for service pages and informational keywords for blog posts. Keep keyword density natural (1–1.5%).</p>
 
         <h3 className="mt-4 font-semibold">Content mapping</h3>
         <p className="mt-2 text-slate-700">Create dedicated pages for high-priority keywords (e.g., "SEO services in Nepal") and clusters of blog posts that support those pillars. Each service page should be 1,200–1,800 words and include FAQs and local context.</p>
@@ -105,7 +105,7 @@ export default function HowToRankNepal() {
           <p className="mt-2">A local address helps for local-pack rankings, but service-area businesses can rank by optimizing their GBP, citations, and local content.</p>
 
           <h3 className="mt-4 font-semibold">3. Which keywords should Nepal businesses target first?</h3>
-          <p className="mt-2">Start with high-intent service keywords that include "Nepal" or city modifiers (Kathmandu, Pokhara) and build supporting blog content for informational queries.</p>
+          <p className="mt-2">Start with high-intent service keywords that include &quot;Nepal&quot; or city modifiers (Kathmandu, Pokhara) and build supporting blog content for informational queries.</p>
 
           <h3 className="mt-4 font-semibold">4. Should I focus on .np domains?</h3>
           <p className="mt-2">.np domains can help local trust signals, but quality content and local signals (GBP, citations) matter most. If you already have a good domain, focus on optimizing it.</p>
@@ -117,7 +117,7 @@ export default function HowToRankNepal() {
         <h2 className="mt-6 text-xl font-semibold">Local mentions (Kathmandu, Pokhara, Nepal)</h2>
         <p className="mt-3 text-slate-700">When creating content, reference local landmarks, events, and cities such as Kathmandu Durbar Square, Pokhara lakeside, and other Nepal-specific locations to show local relevance to Google Nepal.</p>
 
-        <p className="mt-6 text-slate-700">This guide gives you the roadmap for <strong>how to rank website on Google Nepal</strong>. If you want a prioritized, site-specific plan, request a free audit and we'll send a 24-hour action list for your website.</p>
+        <p className="mt-6 text-slate-700">This guide gives you the roadmap for <strong>how to rank website on Google Nepal</strong>. If you want a prioritized, site-specific plan, request a free audit and we&apos;ll send a 24-hour action list for your website.</p>
 
         <div className="mt-6">
           <Link href="/free-audit" className="bg-sky-700 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-800 transition-colors">Get Your Free Nepal SEO Audit</Link>
