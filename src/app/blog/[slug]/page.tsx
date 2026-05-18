@@ -152,33 +152,33 @@ function normalizeCopy(text: string): string {
 }
 
 function buildExpertNotes(title: string, category: string): string {
-  return `## How I would approach this as an SEO expert in the Netherlands
+  return `## How I would approach this as an SEO expert in Nepal
 
-When a business asks about ${title.toLowerCase()}, the first thing I look at is not the keyword alone but the full commercial problem behind the search. In the Netherlands, most companies are not struggling because they lack content. They are struggling because their website does not clearly answer what customers need, their service pages do not match search intent, or their technical setup is blocking Google from trusting the site quickly enough.
+When a business asks about ${title.toLowerCase()}, the first thing I look at is not the keyword alone but the full commercial problem behind the search. In Nepal, most companies are not struggling because they lack content. They are struggling because their website does not clearly answer what customers need, their service pages do not match search intent, or their technical setup is blocking Google from trusting the site quickly enough.
 
 ### The business questions behind the ranking problem
 
-Most Dutch companies ask the same practical questions before they hire help:
+Most Nepali companies ask the same practical questions before they hire help:
 
 - Why are competitors ranking above us even though our service is better?
 - Why do we get impressions but not enough qualified leads?
 - Why is our website visible for broad keywords but not for buying keywords?
-- Why does local visibility in Amsterdam, Rotterdam, or Utrecht stay weak?
+- Why does local visibility in Kathmandu, Pokhara, or Lalitpur stay weak?
 - Why does content not convert even when traffic grows?
 
-The answer is usually a combination of relevance, authority, and technical clarity. A strong ${category.toLowerCase()} campaign in the Netherlands has to deal with all three. That means I review the page structure, internal linking, content depth, local signals, and conversion path before I make any recommendation.
+The answer is usually a combination of relevance, authority, and technical clarity. A strong ${category.toLowerCase()} campaign in Nepal has to deal with all three. That means I review the page structure, internal linking, content depth, local signals, and conversion path before I make any recommendation.
 
-### What I check first on a Dutch business website
+### What I check first on a Nepali business website
 
 My process starts with the pages that actually make money. For service businesses, that means the homepage, the core service page, location pages, and the contact path. For e-commerce or lead generation brands, it may also include category pages, blog support content, and comparison pages. I want to know whether each important page clearly says who it helps, what problem it solves, and why it should rank.
 
-I also check whether the website is using the right language for the market. In the Netherlands, some customers search in English, some in Dutch, and many switch between both depending on the service. A business can lose a lot of opportunities if it only targets generic terms and ignores commercial long-tail searches like local service intent, pricing intent, or problem-solving queries.
+I also check whether the website is using the right language for the market. In Nepal, some customers search in English, some in Nepali, and many switch between both depending on the service. A business can lose a lot of opportunities if it only targets generic terms and ignores commercial long-tail searches like local service intent, pricing intent, or problem-solving queries.
 
 ### The content structure that usually wins
 
 High-quality SEO content does not win because it is long. It wins because it is complete. A useful page should explain the problem, define the solution, compare the options, answer objections, and guide the reader to the next step. That is how you turn organic traffic into leads.
 
-For businesses in the Netherlands, I usually recommend a structure like this:
+For businesses in Nepal, I usually recommend a structure like this:
 
 1. A clear opening that states the problem in plain language.
 2. A short section that explains why the problem matters commercially.
@@ -187,13 +187,13 @@ For businesses in the Netherlands, I usually recommend a structure like this:
 5. A decision section that shows when to do it yourself and when to hire help.
 6. A closing call to action that feels useful, not pushy.
 
-This structure works because it respects the reader's time while still giving enough depth for Google to understand expertise. It also helps a Dutch business owner move from curiosity to action without needing to jump around the page.
+This structure works because it respects the reader's time while still giving enough depth for Google to understand expertise. It also helps a Nepali business owner move from curiosity to action without needing to jump around the page.
 
-### Why depth matters for Netherlands search visibility
+### Why depth matters for Nepal search visibility
 
 Google is looking for pages that solve the searcher's question better than the alternatives. If a competitor has a thin page with basic definitions, a more detailed page from an actual specialist can outperform it even if the domain is smaller. That is especially true in local and service-based markets where intent is specific and the user wants confidence.
 
-Depth also builds trust. When a page explains why a strategy works, where it fails, how long it takes, and what business outcomes to expect, it signals practical experience. That is the kind of content I want to publish for clients who need SEO services in the Netherlands, because it speaks to the real concerns behind the search.
+Depth also builds trust. When a page explains why a strategy works, where it fails, how long it takes, and what business outcomes to expect, it signals practical experience. That is the kind of content I want to publish for clients who need SEO services in Nepal, because it speaks to the real concerns behind the search.
 
 ### Mistakes I see from businesses searching for SEO help
 
@@ -203,7 +203,7 @@ I also see websites that look polished but fail to explain their proof. There is
 
 ### What a practical implementation plan looks like
 
-If I were improving this topic for a Netherlands business, I would move in this order:
+If I were improving this topic for a Nepal business, I would move in this order:
 
 1. Strengthen the main service page so it explains the offer clearly.
 2. Add supporting content that answers common buying questions.
@@ -218,15 +218,15 @@ This is a better approach than producing random blog posts without a structure. 
 
 I do not judge SEO content only by word count. I judge it by three things: whether it ranks, whether it earns clicks, and whether it generates qualified leads. If a page gets impressions but weak click-through rate, the title and search snippet need work. If a page gets traffic but no leads, the content or call to action needs improvement. If the page gets neither, the search intent or topical focus may be wrong.
 
-For business owners in the Netherlands, that means the SEO strategy should be commercial first and editorial second. Editorial quality matters, but it must connect to the services the company actually sells.
+For business owners in Nepal, that means the SEO strategy should be commercial first and editorial second. Editorial quality matters, but it must connect to the services the company actually sells.
 
 ### A simple rule I use with clients
 
 If a page is meant to rank for a problem, it should answer the problem better than a sales page alone can. If a page is meant to convert, it should give enough proof that the visitor feels safe taking the next step. When those two things work together, organic search starts becoming a reliable lead channel instead of just a traffic source.
 
-### Final takeaway for Dutch businesses
+### Final takeaway for Nepali businesses
 
-The best SEO work in the Netherlands is specific, practical, and commercially focused. It speaks directly to the business problem, it respects local search behavior, and it makes the next step obvious. That is how I approach every project, whether the goal is technical cleanup, local visibility, or a stronger content strategy.
+The best SEO work in Nepal is specific, practical, and commercially focused. It speaks directly to the business problem, it respects local search behavior, and it makes the next step obvious. That is how I approach every project, whether the goal is technical cleanup, local visibility, or a stronger content strategy.
 
 ## Questions businesses usually ask before hiring SEO help
 
@@ -234,9 +234,9 @@ The best SEO work in the Netherlands is specific, practical, and commercially fo
 
 Most businesses see early movement within a few months, but meaningful lead growth usually takes longer. The timeline depends on competition, current site quality, and how much authority the domain already has.
 
-### Should I target Dutch keywords, English keywords, or both?
+### Should I target Nepali keywords, English keywords, or both?
 
-That depends on your audience. Many Dutch businesses need both because buyers search in different languages depending on the service and level of urgency.
+That depends on your audience. Many Nepali businesses need both because buyers search in different languages depending on the service and level of urgency.
 
 ### Is local SEO enough for my company?
 

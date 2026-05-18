@@ -5,14 +5,14 @@ import { SITE_CONFIG } from "@/lib/config";
 
 export function generateMetadata(): Metadata {
 	return {
-		title: "SEO Case Studies | Best SEO Agency in Netherlands",
-		description: "Explore SEO case studies and portfolio results from Sudip Chaudhary, an SEO expert in Amsterdam helping Netherlands businesses with technical SEO, local SEO, content strategy, and organic growth.",
-		keywords: "SEO case studies, SEO portfolio, SEO expert Amsterdam, SEO expert Netherlands, best SEO agency in Netherlands, technical SEO Netherlands, local SEO Amsterdam",
+		title: "SEO Case Studies | Best SEO Agency in Nepal",
+		description: "Explore SEO case studies and portfolio results from Sudip Chaudhary, an SEO expert in Kathmandu helping Nepal businesses with technical SEO, local SEO, content strategy, and organic growth.",
+		keywords: "SEO case studies, SEO portfolio, SEO expert Kathmandu, SEO expert Nepal, best SEO agency in Nepal, technical SEO Nepal, local SEO Kathmandu",
 		alternates: {
 			canonical: `${SITE_CONFIG.url}/portfolio`,
 		},
 		openGraph: {
-			title: "SEO Case Studies | Best SEO Agency in Netherlands",
+			title: "SEO Case Studies | Best SEO Agency in Nepal",
 			description: "See the SEO projects, technical improvements, and ranking-focused work behind Sudip Chaudhary's portfolio.",
 			url: `${SITE_CONFIG.url}/portfolio`,
 			type: "website",
@@ -27,24 +27,24 @@ export default function PortfolioPage() {
 				<section className="max-w-3xl space-y-5">
 					<p className="text-sm font-semibold uppercase tracking-[0.24em] text-sky-700">Portfolio</p>
 					<h1 className="text-[clamp(2.4rem,5vw,4.5rem)] font-semibold leading-tight text-slate-900">
-						SEO case studies for Amsterdam and Netherlands businesses.
+						SEO case studies for Kathmandu and Nepal businesses.
 					</h1>
 					<p className="text-lg leading-8 text-slate-700">
-						These projects show how I approach technical SEO, local search visibility, content strategy, and ranking growth for businesses that want the best SEO agency in Netherlands-level execution.
+						These projects show how I approach technical SEO, local search visibility, content strategy, and ranking growth for businesses that want the best SEO agency in Nepal-level execution.
 					</p>
 				</section>
 
 				<section className="grid gap-4 md:grid-cols-3">
 					<article className="border border-sky-100 bg-white p-6 shadow-sm">
-						<h2 className="text-xl font-semibold text-slate-900">SEO expert Amsterdam</h2>
+						<h2 className="text-xl font-semibold text-slate-900">SEO expert Kathmandu</h2>
 						<p className="mt-3 leading-7 text-slate-700">Portfolio work centered on local market relevance, search intent, and lead generation.</p>
 					</article>
 					<article className="border border-sky-100 bg-white p-6 shadow-sm">
-						<h2 className="text-xl font-semibold text-slate-900">SEO expert Netherlands</h2>
-						<p className="mt-3 leading-7 text-slate-700">Projects built to support broader Dutch visibility and commercial keyword targets.</p>
+						<h2 className="text-xl font-semibold text-slate-900">SEO expert Nepal</h2>
+						<p className="mt-3 leading-7 text-slate-700">Projects built to support broader Nepali visibility and commercial keyword targets.</p>
 					</article>
 					<article className="border border-sky-100 bg-white p-6 shadow-sm">
-						<h2 className="text-xl font-semibold text-slate-900">Best SEO agency in Netherlands</h2>
+						<h2 className="text-xl font-semibold text-slate-900">Best SEO agency in Nepal</h2>
 						<p className="mt-3 leading-7 text-slate-700">Case studies that demonstrate execution, process, and results rather than generic claims.</p>
 					</article>
 				</section>

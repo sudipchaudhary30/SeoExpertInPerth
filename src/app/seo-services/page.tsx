@@ -17,7 +17,7 @@ const services = [
   },
   {
     title: "Link Building",
-    description: "Relevant backlinks, digital PR support, and authority-building outreach for Dutch businesses.",
+    description: "Relevant backlinks, digital PR support, and authority-building outreach for Nepali businesses.",
   },
   {
     title: "SEO Consulting",
@@ -32,7 +32,7 @@ const services = [
 const faqs = [
   {
     question: "Which keywords is this page meant to rank for?",
-    answer: "The page is built around SEO expert Amsterdam, SEO expert Netherlands, SEO specialist Netherlands, best SEO agency in Netherlands, and best digital marketing agency in Netherlands.",
+    answer: "The page is built around SEO expert Kathmandu, SEO expert Nepal, SEO specialist Nepal, best SEO agency in Nepal, and best digital marketing agency in Nepal.",
   },
   {
     question: "Is this a service page or a blog post?",
@@ -46,25 +46,25 @@ const faqs = [
 
 export function generateMetadata(): Metadata {
   return {
-    title: "SEO Services in Amsterdam | Best SEO Agency in Netherlands",
-    description: "SEO services in Amsterdam and across the Netherlands. Technical SEO, local SEO, content strategy, and link building for businesses looking for the best SEO agency in Netherlands and best digital marketing agency in Netherlands.",
+    title: "SEO Services in Kathmandu | Best SEO Agency in Nepal",
+    description: "SEO services in Kathmandu and across the Nepal. Technical SEO, local SEO, content strategy, and link building for businesses looking for the best SEO agency in Nepal and best digital marketing agency in Nepal.",
     keywords: [
-      "SEO services Amsterdam",
-      "SEO services Netherlands",
-      "best SEO agency in Netherlands",
-      "best digital marketing agency in Netherlands",
-      "SEO expert Amsterdam",
-      "SEO expert Netherlands",
-      "SEO specialist Netherlands",
-      "technical SEO Netherlands",
-      "local SEO Amsterdam",
+      "SEO services Kathmandu",
+      "SEO services Nepal",
+      "best SEO agency in Nepal",
+      "best digital marketing agency in Nepal",
+      "SEO expert Kathmandu",
+      "SEO expert Nepal",
+      "SEO specialist Nepal",
+      "technical SEO Nepal",
+      "local SEO Kathmandu",
     ].join(", "),
     alternates: {
       canonical: `${SITE_CONFIG.url}/seo-services`,
     },
     openGraph: {
-      title: "SEO Services in Amsterdam | Best SEO Agency in Netherlands",
-      description: "Technical SEO, local SEO, content strategy, and link building for Dutch businesses that want better rankings and more qualified leads.",
+      title: "SEO Services in Kathmandu | Best SEO Agency in Nepal",
+      description: "Technical SEO, local SEO, content strategy, and link building for Nepali businesses that want better rankings and more qualified leads.",
       url: `${SITE_CONFIG.url}/seo-services`,
       type: "website",
     },
@@ -79,28 +79,28 @@ export default function SeoServicesPage() {
           <div className="max-w-3xl space-y-5">
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-sky-700">SEO Services</p>
             <h1 className="text-[clamp(2.4rem,5vw,4.5rem)] font-semibold leading-tight text-slate-900">
-              SEO Services in Amsterdam for businesses searching for the best SEO agency in Netherlands.
+              SEO Services in Kathmandu for businesses searching for the best SEO agency in Nepal.
             </h1>
             <p className="text-lg leading-8 text-slate-700">
-              I help Dutch businesses grow with technical SEO, local SEO, content strategy, and link building. This page is built to support the highest-value commercial searches while staying clear, useful, and conversion focused.
+              I help Nepali businesses grow with technical SEO, local SEO, content strategy, and link building. This page is built to support the highest-value commercial searches while staying clear, useful, and conversion focused.
             </p>
           </div>
 
           <div className="grid gap-4 md:grid-cols-3">
             <article className="border border-sky-100 bg-white p-6 shadow-sm">
-              <h2 className="text-xl font-semibold text-slate-900">Best SEO Agency in Netherlands</h2>
+              <h2 className="text-xl font-semibold text-slate-900">Best SEO Agency in Nepal</h2>
               <p className="mt-3 leading-7 text-slate-700">
                 Built for users comparing agencies and looking for a reliable SEO partner with measurable results.
               </p>
             </article>
             <article className="border border-sky-100 bg-white p-6 shadow-sm">
-              <h2 className="text-xl font-semibold text-slate-900">Best Digital Marketing Agency in Netherlands</h2>
+              <h2 className="text-xl font-semibold text-slate-900">Best Digital Marketing Agency in Nepal</h2>
               <p className="mt-3 leading-7 text-slate-700">
                 Positioned for broader marketing searches where SEO, content, and growth strategy sit together.
               </p>
             </article>
             <article className="border border-sky-100 bg-white p-6 shadow-sm">
-              <h2 className="text-xl font-semibold text-slate-900">SEO Expert Amsterdam</h2>
+              <h2 className="text-xl font-semibold text-slate-900">SEO Expert Kathmandu</h2>
               <p className="mt-3 leading-7 text-slate-700">
                 Reinforces the local authority signal from the homepage and keeps the keyword cluster tightly connected.
               </p>
@@ -134,7 +134,7 @@ export default function SeoServicesPage() {
           <div className="space-y-4">
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-sky-700">Process</p>
             <h2 className="text-[clamp(1.9rem,4vw,3rem)] font-semibold text-slate-900">
-              The SEO process I use for Netherlands businesses.
+              The SEO process I use for Nepal businesses.
             </h2>
             <div className="space-y-4 text-lg leading-8 text-slate-700">
               <p>1. Audit the site and identify technical barriers to crawling, indexing, and conversion.</p>

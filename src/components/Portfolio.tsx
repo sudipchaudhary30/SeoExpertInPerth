@@ -20,9 +20,9 @@ export default function Portfolio() {
       <div className="container mx-auto px-4">
         <div className="mb-12 max-w-3xl space-y-4">
           <p className="text-sm font-semibold uppercase tracking-[0.24em] text-sky-700">Case Studies</p>
-          <h2 className="text-4xl font-bold text-slate-900 md:text-5xl">Projects & case studies that support SEO growth in the Netherlands</h2>
+          <h2 className="text-4xl font-bold text-slate-900 md:text-5xl">Projects & case studies that support SEO growth in Nepal</h2>
           <p className="text-lg leading-8 text-slate-700">
-            These projects show how technical SEO, local SEO, and content strategy come together to improve rankings and qualified leads for Dutch businesses.
+            These projects show how technical SEO, local SEO, and content strategy come together to improve rankings and qualified leads for Nepali businesses.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -51,7 +51,7 @@ export default function Portfolio() {
         <div className="mt-10 border border-sky-200 bg-white p-8 shadow-sm">
           <h3 className="text-2xl font-bold text-slate-900">Need a similar result on your site?</h3>
           <p className="mt-3 max-w-3xl leading-8 text-slate-700">
-            If you are comparing the best SEO agency in Netherlands or looking for an SEO expert in Amsterdam, start with a consultation and a clear plan for your highest-value pages.
+            If you are comparing the best SEO agency in Nepal or looking for an SEO expert in Kathmandu, start with a consultation and a clear plan for your highest-value pages.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Link href="/seo-services" className="bg-sky-700 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-sky-800">

@@ -354,7 +354,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-slate-800 pt-8 text-center text-slate-400">
-          <p>© 2024 Sudip Chaudhary. Built with Next.js & Tailwind CSS. Deployed on Cloudflare.</p>
+          <p>© 2024 Sudip Chaudhary.</p>
         </div>
       </div>
     </footer>

@@ -7,15 +7,15 @@ import blogData from "@/data/blog";
 
 export function generateMetadata(): Metadata {
   return {
-    title: "SEO Blog | Netherlands SEO Strategy, Technical SEO, and Local Search",
-    description: "Read practical SEO articles for Netherlands businesses on technical SEO, local SEO, keyword research, content strategy, and how to rank higher on Google.",
-    keywords: "SEO blog, SEO articles, SEO tips Netherlands, technical SEO Netherlands, local SEO Amsterdam, content strategy Netherlands, best SEO agency in Netherlands",
+    title: "SEO Blog | Nepal SEO Strategy, Technical SEO, and Local Search",
+    description: "Read practical SEO articles for Nepal businesses on technical SEO, local SEO, keyword research, content strategy, and how to rank higher on Google.",
+    keywords: "SEO blog, SEO articles, SEO tips Nepal, technical SEO Nepal, local SEO Kathmandu, content strategy Nepal, best SEO agency in Nepal",
     alternates: {
       canonical: `${SITE_CONFIG.url}/blog`,
     },
     openGraph: {
-      title: "SEO Blog | Netherlands SEO Strategy, Technical SEO, and Local Search",
-      description: "Practical SEO articles covering technical optimization, content strategy, local SEO, and Google ranking strategies for Netherlands businesses.",
+      title: "SEO Blog | Nepal SEO Strategy, Technical SEO, and Local Search",
+      description: "Practical SEO articles covering technical optimization, content strategy, local SEO, and Google ranking strategies for Nepal businesses.",
       url: `${SITE_CONFIG.url}/blog`,
       type: "website",
     },
@@ -31,18 +31,18 @@ export default function Blog() {
         <div className="max-w-3xl">
           <p className="text-sm font-semibold uppercase tracking-[0.24em] text-sky-700">Blog</p>
           <h1 className="mt-3 text-[clamp(2.4rem,5vw,4.5rem)] font-semibold text-slate-900">
-            SEO Blog for Netherlands businesses that want better rankings.
+            SEO Blog for Nepal businesses that want better rankings.
           </h1>
           <p className="mt-4 text-xl leading-8 text-slate-600">
-            Expert articles on technical SEO, local SEO, content strategy, keyword research, and ranking opportunities for Amsterdam and across the Netherlands.
+            Expert articles on technical SEO, local SEO, content strategy, keyword research, and ranking opportunities for Kathmandu and across Nepal.
           </p>
         </div>
 
         <section className="mt-10 grid gap-4 md:grid-cols-3">
           <Link href="/seo-services" className="border border-sky-100 bg-white p-6 shadow-sm transition-colors hover:border-sky-300 hover:bg-sky-50">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">Service page</p>
-            <h2 className="mt-2 text-xl font-semibold text-slate-900">SEO services in Amsterdam</h2>
-            <p className="mt-3 leading-7 text-slate-700">Use this if you are comparing the best SEO agency in Netherlands and want a clear service overview.</p>
+            <h2 className="mt-2 text-xl font-semibold text-slate-900">SEO services in Kathmandu</h2>
+            <p className="mt-3 leading-7 text-slate-700">Use this if you are comparing the best SEO agency in Nepal and want a clear service overview.</p>
           </Link>
           <Link href="/contact" className="border border-sky-100 bg-white p-6 shadow-sm transition-colors hover:border-sky-300 hover:bg-sky-50">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">Consultation</p>
@@ -52,7 +52,7 @@ export default function Blog() {
           <Link href="/about" className="border border-sky-100 bg-white p-6 shadow-sm transition-colors hover:border-sky-300 hover:bg-sky-50">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">About</p>
             <h2 className="mt-2 text-xl font-semibold text-slate-900">Why work with Sudip</h2>
-            <p className="mt-3 leading-7 text-slate-700">Learn how the SEO strategy is structured for Amsterdam and Netherlands businesses.</p>
+            <p className="mt-3 leading-7 text-slate-700">Learn how the SEO strategy is structured for Kathmandu and Nepal businesses.</p>
           </Link>
         </section>
 
@@ -92,7 +92,7 @@ export default function Blog() {
               <p className="text-sm font-semibold uppercase tracking-[0.24em] text-sky-700">Next step</p>
               <h2 className="mt-3 text-2xl font-bold text-slate-900">Want help turning this strategy into rankings?</h2>
               <p className="mt-4 text-slate-600" style={{lineHeight: '1.5'}}>
-                Read the articles, then move to the service page or contact page if you want a practical SEO plan for your Netherlands business.
+                Read the articles, then move to the service page or contact page if you want a practical SEO plan for your Nepal business.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <Link href="/seo-services" className="bg-sky-700 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-sky-800">

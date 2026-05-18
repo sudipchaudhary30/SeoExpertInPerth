@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   authors: [{ name: SITE_CONFIG.author }],
   creator: SITE_CONFIG.author,
   metadataBase: new URL(SITE_CONFIG.url),
-  icons: {
+      icons: {
     icon: [
       {
         url: "/images/favicon/favicon.ico",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
         type: "image/svg+xml",
       },
       {
-        url: "/images/favicon/Seo_expert_in_netherlands_favicon-96x96.png",
+        url: "/images/favicon/Seo_expert_in_nepal_favicon-96x96.png",
         type: "image/png",
         sizes: "96x96",
       },
@@ -80,7 +80,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           "url": SITE_CONFIG.url,
           "email": SITE_CONFIG.email,
           "jobTitle": "SEO Expert & Digital Strategist",
-          "areaServed": "NL",
+          "areaServed": "NP",
           "knowsAbout": ["Search Engine Optimization", "Technical SEO", "Content Strategy", "Local SEO", "Digital Marketing"],
           "worksFor": {
             "@type": "Organization",
@@ -91,8 +91,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "name": SITE_CONFIG.location,
               "address": {
                 "@type": "PostalAddress",
-                "addressCountry": "NL",
-                "addressRegion": "North Holland"
+                "addressCountry": "NP",
+                "addressRegion": "Bagmati Province"
               }
             }
           },
@@ -102,18 +102,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
           "name": SITE_CONFIG.author,
-          "description": "SEO Expert and Digital Strategy Specialist in Amsterdam, Netherlands",
+          "description": "SEO Expert and Digital Strategy Specialist in Kathmandu, Nepal",
           "url": SITE_CONFIG.url,
           "email": SITE_CONFIG.email,
-          "areaServed": "NL",
+          "areaServed": "NP",
           "serviceType": ["SEO Services", "Content Strategy", "Technical SEO", "Local SEO"],
           "location": {
             "@type": "Place",
-            "name": "Amsterdam",
+            "name": "Kathmandu",
             "address": {
               "@type": "PostalAddress",
-              "addressCountry": "NL",
-              "addressRegion": "North Holland"
+              "addressCountry": "NP",
+              "addressRegion": "Bagmati Province"
             }
           },
           "priceRange": "$$"

@@ -43,17 +43,17 @@ const sourcePosts = seedPosts as BlogPost[];
 const generatedPostConfigs: GeneratedPostConfig[] = [
   {
     id: 9,
-    slug: "seo-services-amsterdam-ranking-guide",
-    title: "SEO Services in Amsterdam: How to Build a Page That Ranks and Converts",
+    slug: "seo-services-Kathmandu-ranking-guide",
+    title: "SEO Services in Kathmandu: How to Build a Page That Ranks and Converts",
     excerpt:
-      "A practical guide to creating a service page that can rank for SEO services Amsterdam while still converting visitors into qualified leads.",
+      "A practical guide to creating a service page that can rank for SEO services Kathmandu while still converting visitors into qualified leads.",
     category: "SEO Services",
-    primaryKeyword: "SEO services Amsterdam",
-    audience: "service businesses in Amsterdam and the Netherlands",
+    primaryKeyword: "SEO services Kathmandu",
+    audience: "service businesses in Kathmandu and the Nepal",
     focus: "commercial intent, page structure, internal linking, and conversion design",
     angles: [
       "The page has to explain the offer faster than a competitor can confuse the reader. If a visitor lands on the page and does not understand what is included, who it is for, and why the work matters, the ranking opportunity is wasted. A service page needs to answer the buying question, not just the informational question.",
-      "In the Dutch market, this matters even more because many buyers compare several providers before making contact. They want a clear scope, proof of expertise, local relevance, and a simple path to a consultation. That means the page should work like a sales asset and a search asset at the same time.",
+      "In the Nepali market, this matters even more because many buyers compare several providers before making contact. They want a clear scope, proof of expertise, local relevance, and a simple path to a consultation. That means the page should work like a sales asset and a search asset at the same time.",
       "The strongest service pages usually combine technical clarity, local language, and a practical explanation of outcomes. They make it obvious that the business understands crawlability, conversion, local search, and what a client actually needs to move forward.",
       "For internal links, I would connect this page to the homepage, the about page, the contact page, and a small cluster of supporting articles about technical SEO, local SEO, and keyword strategy. That creates a clear topical path instead of leaving the page isolated.",
       "The next step is measurement. If the page gets impressions but weak clicks, the title and snippet need work. If the page gets traffic but not leads, the message, proof, or CTA needs improvement. If the page gets neither, the search intent is not aligned tightly enough with the content.",
@@ -62,7 +62,7 @@ const generatedPostConfigs: GeneratedPostConfig[] = [
       {
         question: "What should a high-performing SEO services page include?",
         answer:
-          "It should explain the service, define the outcome, show the process, add proof, and link to the next step. The page should also make local relevance obvious so Google can connect it to Amsterdam and Dutch service intent.",
+          "It should explain the service, define the outcome, show the process, add proof, and link to the next step. The page should also make local relevance obvious so Google can connect it to Kathmandu and Nepali service intent.",
       },
       {
         question: "Should this page target agency keywords or service keywords?",
@@ -75,9 +75,9 @@ const generatedPostConfigs: GeneratedPostConfig[] = [
           "Internal links tell search engines which pages are most important and help spread relevance from related content. They also help visitors move from education to action, which improves the business value of the traffic.",
       },
       {
-        question: "What makes a service page convert better in the Netherlands market?",
+        question: "What makes a service page convert better in the Nepal market?",
         answer:
-          "Clear language, local context, measurable outcomes, and a direct consultation path. Dutch buyers usually respond better when the page feels practical rather than promotional.",
+          "Clear language, local context, measurable outcomes, and a direct consultation path. Nepali buyers usually respond better when the page feels practical rather than promotional.",
       },
       {
         question: "What is the fastest thing to improve first?",
@@ -89,23 +89,23 @@ const generatedPostConfigs: GeneratedPostConfig[] = [
       { label: "SEO services page", href: "/seo-services/" },
       { label: "Contact page", href: "/contact/" },
       { label: "Technical SEO guide", href: "/blog/technical-seo-nextjs-static-export/" },
-      { label: "Local SEO guide", href: "/blog/local-seo-amsterdam-city-pages/" },
+      { label: "Local SEO guide", href: "/blog/local-seo-Kathmandu-city-pages/" },
     ],
   },
   {
     id: 10,
-    slug: "best-seo-agency-netherlands-selection-guide",
-    title: "Best SEO Agency in Netherlands: What a Serious Buyer Should Actually Look For",
+    slug: "best-seo-agency-Nepal-selection-guide",
+    title: "Best SEO Agency in Nepal: What a Serious Buyer Should Actually Look For",
     excerpt:
-      "A buyer-focused guide that explains how to judge the best SEO agency in Netherlands by process, proof, and commercial clarity instead of marketing hype.",
+      "A buyer-focused guide that explains how to judge the best SEO agency in Nepal by process, proof, and commercial clarity instead of marketing hype.",
     category: "Agency Selection",
-    primaryKeyword: "best SEO agency in Netherlands",
+    primaryKeyword: "best SEO agency in Nepal",
     audience: "buyers comparing SEO partners",
     focus: "evaluation criteria, trust signals, proof, and realistic expectations",
     angles: [
       "The right agency is not the one that uses the most buzzwords. It is the one that can explain what they will improve first, how they will measure progress, and why those priorities matter for your business model. That is the difference between a sales presentation and a strategy.",
       "A serious buyer should look for clarity around technical audits, keyword mapping, content depth, internal linking, and conversion thinking. If the agency cannot separate these pieces, they usually cannot build a plan that is actually useful.",
-      "In the Netherlands, local understanding also matters. You need someone who understands Dutch search behavior, bilingual search intent, and the commercial reality of competing in Amsterdam, Rotterdam, Utrecht, The Hague, and national terms at the same time.",
+      "In the Nepal, local understanding also matters. You need someone who understands Nepali search behavior, bilingual search intent, and the commercial reality of competing in Kathmandu, Rotterdam, Utrecht, The Hague, and national terms at the same time.",
       "I would also ask for proof of thought process. Even if the agency cannot reveal every client detail, they should be able to explain the method behind their work. Good SEO is not a mystery; it is a repeatable system of diagnosis, prioritization, and execution.",
       "The strongest agencies sell outcomes, not activity. They talk about qualified traffic, lead quality, page performance, and business growth. They are willing to say no to vanity metrics when they do not relate to the commercial goal.",
     ],
@@ -116,7 +116,7 @@ const generatedPostConfigs: GeneratedPostConfig[] = [
           "Look for a clear process, evidence of technical depth, a strong content approach, and an honest explanation of what they will improve first. If they skip those parts, they are probably selling surface-level SEO.",
       },
       {
-        question: "Should I choose a local agency in Amsterdam?",
+        question: "Should I choose a local agency in Kathmandu?",
         answer:
           "A local agency can help if they understand your market and your audience, but location alone is not enough. The real question is whether they can build a plan that matches your commercial goals.",
       },
@@ -139,25 +139,25 @@ const generatedPostConfigs: GeneratedPostConfig[] = [
     relatedLinks: [
       { label: "SEO services page", href: "/seo-services/" },
       { label: "About page", href: "/about/" },
-      { label: "How to choose the right SEO partner", href: "/blog/choose-right-seo-partner-netherlands/" },
-      { label: "SEO reporting guide", href: "/blog/seo-reporting-client-metrics-netherlands/" },
+      { label: "How to choose the right SEO partner", href: "/blog/choose-right-seo-partner-Nepal/" },
+      { label: "SEO reporting guide", href: "/blog/seo-reporting-client-metrics-Nepal/" },
     ],
   },
   {
     id: 11,
-    slug: "best-digital-marketing-agency-netherlands-seo-role",
-    title: "Best Digital Marketing Agency in Netherlands: Where SEO Fits in the Buying Journey",
+    slug: "best-digital-marketing-agency-Nepal-seo-role",
+    title: "Best Digital Marketing Agency in Nepal: Where SEO Fits in the Buying Journey",
     excerpt:
-      "A strategic guide to the best digital marketing agency in Netherlands keyword and how SEO should sit inside a broader growth system.",
+      "A strategic guide to the best digital marketing agency in Nepal keyword and how SEO should sit inside a broader growth system.",
     category: "Digital Marketing",
-    primaryKeyword: "best digital marketing agency in Netherlands",
+    primaryKeyword: "best digital marketing agency in Nepal",
     audience: "businesses comparing digital growth partners",
     focus: "SEO, content, conversion, and long-term demand generation",
     angles: [
       "Digital marketing only works when the channels support each other. SEO brings demand from search, content builds authority, and conversion design turns that attention into leads. If one of those pieces is missing, the whole system leaks value.",
-      "For many Dutch businesses, the best approach is not choosing between SEO and paid media. It is building a search-first foundation that improves both. SEO pages can educate the market, answer buying questions, and lower acquisition costs over time.",
+      "For many Nepali businesses, the best approach is not choosing between SEO and paid media. It is building a search-first foundation that improves both. SEO pages can educate the market, answer buying questions, and lower acquisition costs over time.",
       "The best digital marketing agencies can explain how content, landing pages, analytics, and ranking strategy connect. They should be able to show where the traffic comes from, where users drop off, and what needs to change to make the funnel stronger.",
-      "A service business in the Netherlands usually needs both authority and clarity. That means the website must rank, but it also must tell a story that makes the reader confident enough to contact you. That is where SEO and digital marketing become one system instead of two separate tasks.",
+      "A service business in the Nepal usually needs both authority and clarity. That means the website must rank, but it also must tell a story that makes the reader confident enough to contact you. That is where SEO and digital marketing become one system instead of two separate tasks.",
       "When I build this kind of strategy, I start with the pages that can generate leads first, then add content that supports them. The goal is not more content for its own sake. The goal is a better commercial pathway from search result to inquiry.",
     ],
     faqs: [
@@ -190,18 +190,18 @@ const generatedPostConfigs: GeneratedPostConfig[] = [
     relatedLinks: [
       { label: "SEO services page", href: "/seo-services/" },
       { label: "Homepage", href: "/" },
-      { label: "Content strategy guide", href: "/blog/content-clusters-netherlands/" },
+      { label: "Content strategy guide", href: "/blog/content-clusters-Nepal/" },
       { label: "Contact page", href: "/contact/" },
     ],
   },
   {
     id: 12,
-    slug: "seo-audit-checklist-netherlands-websites",
-    title: "SEO Audit Checklist for Netherlands Websites: Fix the Right Issues First",
+    slug: "seo-audit-checklist-Nepal-websites",
+    title: "SEO Audit Checklist for Nepal Websites: Fix the Right Issues First",
     excerpt:
-      "A practical SEO audit checklist for Dutch websites that helps you prioritise technical, content, and internal linking issues in the right order.",
+      "A practical SEO audit checklist for Nepali websites that helps you prioritise technical, content, and internal linking issues in the right order.",
     category: "Technical SEO",
-    primaryKeyword: "SEO audit checklist Netherlands",
+    primaryKeyword: "SEO audit checklist Nepal",
     audience: "site owners, marketers, and founders",
     focus: "audits, prioritisation, and remediation order",
     angles: [
@@ -247,17 +247,17 @@ const generatedPostConfigs: GeneratedPostConfig[] = [
   },
   {
     id: 13,
-    slug: "local-seo-amsterdam-city-pages",
-    title: "Local SEO for Amsterdam City Pages: Build Pages That Actually Deserve to Rank",
+    slug: "local-seo-Kathmandu-city-pages",
+    title: "Local SEO for Kathmandu City Pages: Build Pages That Actually Deserve to Rank",
     excerpt:
-      "A local SEO playbook for Amsterdam businesses that want location pages, neighborhood signals, and map visibility without weak duplicate content.",
+      "A local SEO playbook for Kathmandu businesses that want location pages, neighborhood signals, and map visibility without weak duplicate content.",
     category: "Local SEO",
-    primaryKeyword: "local SEO Amsterdam",
-    audience: "local service businesses in Amsterdam",
+    primaryKeyword: "local SEO Kathmandu",
+    audience: "local service businesses in Kathmandu",
     focus: "location pages, map visibility, and local proof",
     angles: [
       "Local SEO is not about copying the same page for every city and changing one word. Search engines can detect thin duplication very quickly. A useful location page needs local context, specific proof, and a real reason for that page to exist.",
-      "For Amsterdam businesses, the strongest location pages talk about the local service problem, the neighborhoods served, and the practical reasons clients choose a provider in that area. That helps the page feel relevant to users and understandable to search engines.",
+      "For Kathmandu businesses, the strongest location pages talk about the local service problem, the neighborhoods served, and the practical reasons clients choose a provider in that area. That helps the page feel relevant to users and understandable to search engines.",
       "The map pack and the organic results work together. A business can win attention in one and still lose in the other if the page experience is weak. That is why local SEO needs website content, Google Business Profile work, and review management in one plan.",
       "I also pay close attention to citations and naming consistency. When the name, address, phone, and service descriptions are inconsistent across the web, trust drops. When they are aligned, the local signals become much easier for search engines to read.",
       "The best local pages do not feel like directory entries. They feel like helpful location guides written by a business that genuinely works in the area and understands what customers need before they contact you.",
@@ -292,7 +292,7 @@ const generatedPostConfigs: GeneratedPostConfig[] = [
     relatedLinks: [
       { label: "SEO services page", href: "/seo-services/" },
       { label: "Homepage", href: "/" },
-      { label: "SEO expert Amsterdam post", href: "/blog/seo-expert-amsterdam-netherlands/" },
+      { label: "SEO expert Kathmandu post", href: "/blog/seo-expert-Kathmandu-Nepal/" },
       { label: "Contact page", href: "/contact/" },
     ],
   },
@@ -343,23 +343,23 @@ const generatedPostConfigs: GeneratedPostConfig[] = [
     relatedLinks: [
       { label: "SEO services page", href: "/seo-services/" },
       { label: "Homepage", href: "/" },
-      { label: "Technical SEO checklist", href: "/blog/seo-audit-checklist-netherlands-websites/" },
+      { label: "Technical SEO checklist", href: "/blog/seo-audit-checklist-Nepal-websites/" },
       { label: "About page", href: "/about/" },
     ],
   },
   {
     id: 15,
-    slug: "keyword-research-netherlands-commercial-intent",
-    title: "Keyword Research in the Netherlands: Find Commercial Intent Before You Write",
+    slug: "keyword-research-Nepal-commercial-intent",
+    title: "Keyword Research in the Nepal: Find Commercial Intent Before You Write",
     excerpt:
-      "A practical keyword research framework for Dutch businesses that want to target search terms with genuine buying intent.",
+      "A practical keyword research framework for Nepali businesses that want to target search terms with genuine buying intent.",
     category: "Keyword Research",
-    primaryKeyword: "keyword research Netherlands",
+    primaryKeyword: "keyword research Nepal",
     audience: "business owners and content strategists",
     focus: "intent mapping, keyword grouping, and topic prioritisation",
     angles: [
       "The main mistake in keyword research is chasing volume before intent. A keyword with lower volume but stronger buying intent can produce better business results than a broad keyword that attracts the wrong audience. The job is to match content to the actual commercial stage.",
-      "In the Netherlands, I always separate local intent, service intent, comparison intent, and informational intent. Those groups should not be forced onto one page. Each deserves a different role in the site structure.",
+      "In the Nepal, I always separate local intent, service intent, comparison intent, and informational intent. Those groups should not be forced onto one page. Each deserves a different role in the site structure.",
       "Good keyword research also tells you what not to target. If a keyword is too competitive for your current authority, or if the intent is too vague, it is often better to build supporting pages first and return later with stronger relevance.",
       "I like to map keywords into clusters around one core service. For example, an SEO service page might be supported by local SEO, technical SEO, content strategy, and agency selection articles. That is how a site builds topical authority without spreading itself too thin.",
       "The best research leads directly into page planning. If the keyword list does not tell you what pages should exist and how they should link together, the research is not finished yet.",
@@ -371,9 +371,9 @@ const generatedPostConfigs: GeneratedPostConfig[] = [
           "Choosing keywords only because they have volume. If they do not match buying intent, the traffic will usually be less useful.",
       },
       {
-        question: "Should I target English or Dutch terms?",
+        question: "Should I target English or Nepali terms?",
         answer:
-          "That depends on your customers. Many Dutch businesses need a mix of both because buyers use different language patterns at different stages.",
+          "That depends on your customers. Many Nepali businesses need a mix of both because buyers use different language patterns at different stages.",
       },
       {
         question: "How many keywords should one page target?",
@@ -393,24 +393,24 @@ const generatedPostConfigs: GeneratedPostConfig[] = [
     ],
     relatedLinks: [
       { label: "SEO services page", href: "/seo-services/" },
-      { label: "Content strategy guide", href: "/blog/content-clusters-netherlands/" },
-      { label: "Best SEO agency guide", href: "/blog/best-seo-agency-netherlands-selection-guide/" },
+      { label: "Content strategy guide", href: "/blog/content-clusters-Nepal/" },
+      { label: "Best SEO agency guide", href: "/blog/best-seo-agency-Nepal-selection-guide/" },
       { label: "Contact page", href: "/contact/" },
     ],
   },
   {
     id: 16,
-    slug: "content-clusters-netherlands-topical-authority",
-    title: "Content Clusters in the Netherlands: How to Build Topical Authority That Lasts",
+    slug: "content-clusters-Nepal-topical-authority",
+    title: "Content Clusters in the Nepal: How to Build Topical Authority That Lasts",
     excerpt:
-      "A content cluster strategy for Dutch websites that want to earn authority around one core topic instead of publishing disconnected blog posts.",
+      "A content cluster strategy for Nepali websites that want to earn authority around one core topic instead of publishing disconnected blog posts.",
     category: "Content Strategy",
-    primaryKeyword: "content clusters Netherlands",
+    primaryKeyword: "content clusters Nepal",
     audience: "brands building long-term organic visibility",
     focus: "pillar pages, supporting articles, and internal linking",
     angles: [
       "A content cluster works because it makes the topic map obvious. Instead of writing isolated posts, you create one main page that owns the subject and several supporting articles that deepen the theme. That creates a structure search engines can understand quickly.",
-      "For a Netherlands business, the pillar page should usually cover the core service or core topic in depth. Supporting articles can then answer adjacent questions, compare options, explain processes, and remove objections before the user reaches the contact stage.",
+      "For a Nepal business, the pillar page should usually cover the core service or core topic in depth. Supporting articles can then answer adjacent questions, compare options, explain processes, and remove objections before the user reaches the contact stage.",
       "Internal links are the glue. Without them, the content exists but the authority does not flow. With them, the site feels like a connected library instead of a pile of separate pages.",
       "I also recommend assigning each article a clear role. Some pages should attract discovery traffic. Some should educate. Some should convert. When those roles are defined, the cluster becomes easier to plan and easier to improve.",
       "The best clusters are built around commercial reality, not just keyword lists. They reflect what the business sells, what customers ask, and which pages need support to earn ranking and leads.",
@@ -445,23 +445,23 @@ const generatedPostConfigs: GeneratedPostConfig[] = [
     relatedLinks: [
       { label: "SEO services page", href: "/seo-services/" },
       { label: "Homepage", href: "/" },
-      { label: "Link building guide", href: "/blog/link-building-netherlands-safe-strategy/" },
-      { label: "SEO expert Amsterdam post", href: "/blog/seo-expert-amsterdam-netherlands/" },
+      { label: "Link building guide", href: "/blog/link-building-Nepal-safe-strategy/" },
+      { label: "SEO expert Kathmandu post", href: "/blog/seo-expert-Kathmandu-Nepal/" },
     ],
   },
   {
     id: 17,
-    slug: "link-building-netherlands-safe-strategy",
-    title: "Link Building in the Netherlands: How to Earn Authority Without Risk",
+    slug: "link-building-Nepal-safe-strategy",
+    title: "Link Building in the Nepal: How to Earn Authority Without Risk",
     excerpt:
-      "A safe, expert approach to link building for Dutch websites that want stronger authority and rankings without low-quality shortcuts.",
+      "A safe, expert approach to link building for Nepali websites that want stronger authority and rankings without low-quality shortcuts.",
     category: "Link Building",
-    primaryKeyword: "link building Netherlands",
+    primaryKeyword: "link building Nepal",
     audience: "businesses that need authority growth",
     focus: "quality links, relevance, outreach, and risk management",
     angles: [
       "Link building should support relevance, not chase numbers. A handful of good links from relevant sites can outperform a large volume of weak placements. The goal is to show search engines that your content deserves attention from other trustworthy sources.",
-      "For Dutch businesses, local relevance can be very powerful. Mentions from regional partners, industry associations, local publications, and niche directories can help establish authority in a way that fits the market naturally.",
+      "For Nepali businesses, local relevance can be very powerful. Mentions from regional partners, industry associations, local publications, and niche directories can help establish authority in a way that fits the market naturally.",
       "The safest approach is to create link-worthy content first. If the content is useful enough, outreach becomes easier because you are offering something that adds value rather than asking for a favour.",
       "I also pay attention to anchor text. It should look natural and varied. Over-optimized links can create problems, while descriptive and contextually relevant anchors usually work better over time.",
       "Link building works best when it is tied to the rest of the site. The links should point to pages that already deserve to rank, and those pages should then support the rest of the cluster through internal linking.",
@@ -495,25 +495,25 @@ const generatedPostConfigs: GeneratedPostConfig[] = [
     ],
     relatedLinks: [
       { label: "SEO services page", href: "/seo-services/" },
-      { label: "Content strategy guide", href: "/blog/content-clusters-netherlands/" },
-      { label: "SEO audit checklist", href: "/blog/seo-audit-checklist-netherlands-websites/" },
+      { label: "Content strategy guide", href: "/blog/content-clusters-Nepal/" },
+      { label: "SEO audit checklist", href: "/blog/seo-audit-checklist-Nepal-websites/" },
       { label: "Contact page", href: "/contact/" },
     ],
   },
   {
     id: 18,
-    slug: "ecommerce-seo-netherlands-category-product-strategy",
-    title: "Ecommerce SEO in the Netherlands: Category and Product Page Strategy That Ranks",
+    slug: "ecommerce-seo-Nepal-category-product-strategy",
+    title: "Ecommerce SEO in the Nepal: Category and Product Page Strategy That Ranks",
     excerpt:
-      "A practical ecommerce SEO guide for Dutch stores that want stronger category pages, better product visibility, and cleaner internal linking.",
+      "A practical ecommerce SEO guide for Nepali stores that want stronger category pages, better product visibility, and cleaner internal linking.",
     category: "Ecommerce SEO",
-    primaryKeyword: "ecommerce SEO Netherlands",
+    primaryKeyword: "ecommerce SEO Nepal",
     audience: "online stores and ecommerce managers",
     focus: "category pages, product pages, faceted navigation, and conversion",
     angles: [
       "Ecommerce SEO is won at the category level first. If the category page is weak, the product pages have less context and the site becomes harder to organise. A strong category page can capture broad commercial intent and then guide the user deeper.",
       "Product pages should answer the buying questions quickly. Users want to know what the item is, why it matters, what differentiates it, and how they should decide. If the page is vague, the sale becomes harder and the ranking signal is weaker.",
-      "The Netherlands market also means you need a sensible approach to language, shipping expectations, and trust cues. Customers want clarity about delivery, returns, and the practical details that make the purchase feel safe.",
+      "The Nepal market also means you need a sensible approach to language, shipping expectations, and trust cues. Customers want clarity about delivery, returns, and the practical details that make the purchase feel safe.",
       "Internal linking matters more in ecommerce than many owners realise. Category pages should link to key products, related subcategories, and helpful guides. Guides should then link back to categories. That flow helps both ranking and browsing.",
       "A store that wants to grow organically needs more than product listings. It needs helpful content around buying decisions, comparisons, sizing, installation, and use cases. That is how you build demand and trust together.",
     ],
@@ -546,19 +546,19 @@ const generatedPostConfigs: GeneratedPostConfig[] = [
     ],
     relatedLinks: [
       { label: "SEO services page", href: "/seo-services/" },
-      { label: "Keyword research guide", href: "/blog/keyword-research-netherlands-commercial-intent/" },
-      { label: "Link building guide", href: "/blog/link-building-netherlands-safe-strategy/" },
+      { label: "Keyword research guide", href: "/blog/keyword-research-Nepal-commercial-intent/" },
+      { label: "Link building guide", href: "/blog/link-building-Nepal-safe-strategy/" },
       { label: "Contact page", href: "/contact/" },
     ],
   },
   {
     id: 19,
-    slug: "b2b-seo-lead-generation-netherlands",
-    title: "B2B SEO for Lead Generation in the Netherlands: Build a Qualified Pipeline",
+    slug: "b2b-seo-lead-generation-Nepal",
+    title: "B2B SEO for Lead Generation in the Nepal: Build a Qualified Pipeline",
     excerpt:
-      "How B2B companies in the Netherlands can use SEO to generate qualified leads through useful pages, comparison content, and conversion paths.",
+      "How B2B companies in the Nepal can use SEO to generate qualified leads through useful pages, comparison content, and conversion paths.",
     category: "B2B SEO",
-    primaryKeyword: "B2B SEO Netherlands",
+    primaryKeyword: "B2B SEO Nepal",
     audience: "B2B companies and consultants",
     focus: "lead generation, decision-stage content, and funnel alignment",
     angles: [
@@ -598,24 +598,24 @@ const generatedPostConfigs: GeneratedPostConfig[] = [
     relatedLinks: [
       { label: "SEO services page", href: "/seo-services/" },
       { label: "Portfolio page", href: "/portfolio/" },
-      { label: "SEO reporting guide", href: "/blog/seo-reporting-client-metrics-netherlands/" },
+      { label: "SEO reporting guide", href: "/blog/seo-reporting-client-metrics-Nepal/" },
       { label: "Contact page", href: "/contact/" },
     ],
   },
   {
     id: 20,
-    slug: "gdpr-seo-netherlands-cookies-analytics",
-    title: "GDPR and SEO in the Netherlands: Keep Tracking, Content, and Consent Aligned",
+    slug: "gdpr-seo-Nepal-cookies-analytics",
+    title: "GDPR and SEO in the Nepal: Keep Tracking, Content, and Consent Aligned",
     excerpt:
-      "A practical guide to GDPR-aware SEO for Netherlands websites that need analytics, consent management, and trustworthy content.",
+      "A practical guide to GDPR-aware SEO for Nepal websites that need analytics, consent management, and trustworthy content.",
     category: "SEO Compliance",
-    primaryKeyword: "GDPR SEO Netherlands",
+    primaryKeyword: "GDPR SEO Nepal",
     audience: "teams balancing privacy and marketing",
     focus: "consent, analytics, trust, and compliant measurement",
     angles: [
       "GDPR is not just a legal layer; it also affects how you measure SEO performance. If analytics and consent are configured poorly, you may think content is underperforming when the real issue is that you are not tracking correctly.",
       "Trust is a ranking and conversion asset. A site that handles privacy transparently often performs better because users feel safer interacting with it. That makes privacy content part of the marketing system, not an afterthought.",
-      "The challenge is to keep measurement useful without being intrusive. You want enough visibility to understand traffic, clicks, and conversions, but you also want to respect the user and the rules that apply in the Netherlands.",
+      "The challenge is to keep measurement useful without being intrusive. You want enough visibility to understand traffic, clicks, and conversions, but you also want to respect the user and the rules that apply in the Nepal.",
       "Good compliance work does not have to damage SEO. In practice, the right consent setup, clear policy pages, and transparent tracking choices often make the site feel more professional and more credible.",
       "For businesses with lead generation goals, I always connect privacy pages back to the commercial structure. The user should be able to find the service pages, contact path, and key trust signals without friction.",
     ],
@@ -655,17 +655,17 @@ const generatedPostConfigs: GeneratedPostConfig[] = [
   },
   {
     id: 21,
-    slug: "seo-reporting-client-metrics-netherlands",
-    title: "SEO Reporting That Clients Understand: Metrics That Matter in the Netherlands",
+    slug: "seo-reporting-client-metrics-Nepal",
+    title: "SEO Reporting That Clients Understand: Metrics That Matter in the Nepal",
     excerpt:
-      "A client-friendly SEO reporting framework that helps Dutch businesses understand progress, ranking movement, and lead quality.",
+      "A client-friendly SEO reporting framework that helps Nepali businesses understand progress, ranking movement, and lead quality.",
     category: "SEO Reporting",
-    primaryKeyword: "SEO reporting Netherlands",
+    primaryKeyword: "SEO reporting Nepal",
     audience: "agencies, consultants, and clients",
     focus: "reporting, communication, and decision-making",
     angles: [
       "Good reporting explains what changed, why it changed, and what should happen next. If a report only lists charts and numbers, the client still does not know what to do with the information.",
-      "For the Netherlands market, I like to separate visibility, engagement, and conversion. Rankings matter, but they only matter because they can lead to qualified traffic and business outcomes.",
+      "For the Nepal market, I like to separate visibility, engagement, and conversion. Rankings matter, but they only matter because they can lead to qualified traffic and business outcomes.",
       "The report should also show which pages are doing the work. A homepage, a service page, and a blog post all play different roles, so the metrics should reflect that instead of flattening everything into one summary.",
       "When reporting is done properly, clients see the logic of the SEO plan. They can tell what is being improved, why the priorities make sense, and how the investment connects to revenue or lead generation.",
       "I also recommend consistent language. Use the same terms for the same metrics every month so the team can compare progress without confusion. Clarity in reporting builds trust faster than technical jargon ever will.",
@@ -701,7 +701,7 @@ const generatedPostConfigs: GeneratedPostConfig[] = [
       { label: "SEO services page", href: "/seo-services/" },
       { label: "Portfolio page", href: "/portfolio/" },
       { label: "Contact page", href: "/contact/" },
-      { label: "Best SEO agency guide", href: "/blog/best-seo-agency-netherlands-selection-guide/" },
+      { label: "Best SEO agency guide", href: "/blog/best-seo-agency-Nepal-selection-guide/" },
     ],
   },
 ];
@@ -715,11 +715,11 @@ function buildLongArticle(config: GeneratedPostConfig): string {
   return [
     `# ${config.title}`,
     `If you want to rank for ${config.primaryKeyword}, the first thing to understand is that the page has to do more than mention the keyword. It has to answer the buying question, clarify the service role, and fit into a broader internal linking system. That is the difference between a page that exists and a page that actually contributes to rankings.`,
-    `I wrote this guide for ${config.audience} who want a practical way to improve search visibility in the Netherlands. The advice is intentionally commercial, because the strongest SEO work always connects search intent with a real business outcome. You do not rank easily by accident; you rank because the page is structured for relevance, clarity, and trust.`,
-    `In a market like the Netherlands, the same topic can mean very different things depending on where the reader is in the buying journey. A person comparing providers needs proof and scope. A person researching a problem needs explanation. A person ready to contact you needs a clear path. The best pages serve all three without losing focus.`,
+    `I wrote this guide for ${config.audience} who want a practical way to improve search visibility in the Nepal. The advice is intentionally commercial, because the strongest SEO work always connects search intent with a real business outcome. You do not rank easily by accident; you rank because the page is structured for relevance, clarity, and trust.`,
+    `In a market like the Nepal, the same topic can mean very different things depending on where the reader is in the buying journey. A person comparing providers needs proof and scope. A person researching a problem needs explanation. A person ready to contact you needs a clear path. The best pages serve all three without losing focus.`,
     `## Why this topic matters`,
     `This topic matters because the most useful SEO pages are not random blog posts. They are pages that give Google a very clear signal about what the site is about and why the page deserves attention. When the structure is weak, the content feels generic. When the structure is strong, even a smaller domain can compete because the page is sharply aligned with intent.`,
-    `The other reason this matters is commercial. A Netherlands business does not need more content for the sake of content. It needs pages that attract the right people, answer the right questions, and guide the visitor toward a consultation, service page, or case study. That is how organic search becomes a lead channel instead of a traffic vanity metric.`,
+    `The other reason this matters is commercial. A Nepal business does not need more content for the sake of content. It needs pages that attract the right people, answer the right questions, and guide the visitor toward a consultation, service page, or case study. That is how organic search becomes a lead channel instead of a traffic vanity metric.`,
     `## The framework I would use`,
     `### 1. Define the page role`,
     `Before writing anything, I decide whether the page should educate, compare, convert, or support another page. Every good page has a role. The role decides the heading structure, the depth of explanation, the calls to action, and the internal links that should appear. If the role is unclear, the page will usually try to do too many things and end up doing none of them well.`,
@@ -743,7 +743,7 @@ function buildLongArticle(config: GeneratedPostConfig): string {
       .map((faq) => `### ${faq.question}\n\n${faq.answer}`)
       .join("\n\n"),
     `## Final recommendation`,
-    `If the goal is to rank in the Netherlands market, the safest route is to publish content that is clearly useful, clearly linked, and clearly tied to the business model. That is the pattern I use on every project: define the page role, match the intent, support it with links, and make the next step obvious. Done consistently, that is how a site becomes easier for Google to understand and easier for humans to trust.`,
+    `If the goal is to rank in the Nepal market, the safest route is to publish content that is clearly useful, clearly linked, and clearly tied to the business model. That is the pattern I use on every project: define the page role, match the intent, support it with links, and make the next step obvious. Done consistently, that is how a site becomes easier for Google to understand and easier for humans to trust.`,
   ].join("\n\n");
 }
 
@@ -763,8 +763,8 @@ function createGeneratedPost(config: GeneratedPostConfig): BlogPost {
     keywords: [
       config.primaryKeyword,
       config.category,
-      "SEO Netherlands",
-      "Amsterdam SEO",
+      "SEO Nepal",
+      "Kathmandu SEO",
     ],
     content: buildLongArticle(config),
     readTime: 12,
@@ -777,3 +777,4 @@ const generatedPosts = generatedPostConfigs.map(createGeneratedPost);
 const blogPosts: BlogPost[] = [...generatedPosts, ...sourcePosts.map((post) => ({ ...post }))];
 
 export default blogPosts;
+

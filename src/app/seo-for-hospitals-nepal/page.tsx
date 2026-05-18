@@ -1,0 +1,67 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { SITE_CONFIG } from "@/lib/config";
+import fs from "fs";
+import path from "path";
+
+export function generateMetadata(): Metadata {
+  return {
+    title: "SEO for Hospitals Nepal — Increase Appointment Requests | " + SITE_CONFIG.name,
+    description: "SEO for hospitals Nepal: improve local search visibility, patient acquisition, and medical service page optimization.",
+    alternates: { canonical: `${SITE_CONFIG.url}/seo-for-hospitals-nepal` },
+  };
+}
+
+export default function HospitalsSEOPage() {
+  const publicDir = path.join(process.cwd(), "public");
+  const perfImg = fs.existsSync(path.join(publicDir, "images", "proof", "performance-6m.png"))
+    ? "/images/proof/performance-6m.png"
+    : "/images/proff%20of%20work/35.3K_clicks.png";
+  const gsc12 = fs.existsSync(path.join(publicDir, "images", "proof", "gsc-12k.png"))
+    ? "/images/proof/gsc-12k.png"
+    : "/images/proff%20of%20work/12k_clicks.png";
+  const gsc14 = fs.existsSync(path.join(publicDir, "images", "proof", "gsc-14k.png"))
+    ? "/images/proof/gsc-14k.png"
+    : "/images/proff%20of%20work/14K_clicks.png";
+  const gsc17 = fs.existsSync(path.join(publicDir, "images", "proof", "gsc-17k.png"))
+    ? "/images/proof/gsc-17k.png"
+    : "/images/proff%20of%20work/17k_click.png";
+  return (
+    <main className="bg-white py-16">
+      <div className="container">
+        <h1 className="text-3xl font-semibold">SEO for Hospitals Nepal</h1>
+        <p className="mt-4 text-slate-700">Patient-focused SEO for hospitals and clinics in Nepal to increase appointment requests and online enquiries.</p>
+        <div className="mt-6"><Link href="/free-audit" className="bg-sky-700 px-5 py-3 text-white font-semibold">Get Free SEO Audit</Link></div>
+        
+        <section className="mt-12">
+          <h2 className="text-2xl font-semibold">Proof of work</h2>
+          <p className="mt-2 text-slate-600">Selected Google Search Console performance snapshots showing increased clicks and improved average position.</p>
+
+          <div className="mt-6 grid gap-4 md:grid-cols-2">
+            <figure className="border p-4 bg-white shadow-sm">
+              <img src={perfImg} alt="GSC Performance 6 months chart" className="w-full h-96 object-cover rounded" />
+              <figcaption className="mt-2 text-sm text-slate-600">6-month performance overview — total clicks, impressions, CTR, average position.</figcaption>
+            </figure>
+
+            <figure className="border p-4 bg-white shadow-sm">
+              <img src={gsc12} alt="Google Search impact 12k clicks Mar 18 2026" className="w-full h-96 object-cover rounded" />
+              <figcaption className="mt-2 text-sm text-slate-600">Google Search impact — 12k clicks (18 Mar 2026).</figcaption>
+            </figure>
+
+            <figure className="border p-4 bg-white shadow-sm">
+              <img src={gsc14} alt="Google Search impact 14k clicks Mar 20 2026" className="w-full h-96 object-cover rounded" />
+              <figcaption className="mt-2 text-sm text-slate-600">Google Search impact — 14k clicks (20 Mar 2026).</figcaption>
+            </figure>
+
+            <figure className="border p-4 bg-white shadow-sm">
+              <img src={gsc17} alt="Google Search impact 17k clicks Mar 25 2026" className="w-full h-96 object-cover rounded" />
+              <figcaption className="mt-2 text-sm text-slate-600">Google Search impact — 17k clicks (25 Mar 2026).</figcaption>
+            </figure>
+          </div>
+
+          
+        </section>
+      </div>
+    </main>
+  );
+}

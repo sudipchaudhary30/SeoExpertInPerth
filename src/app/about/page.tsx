@@ -6,13 +6,13 @@ const skills = [
   "Technical SEO",
   "Keyword Research",
   "Content Strategy",
-  "Local SEO Amsterdam",
+  "Local SEO Kathmandu",
   "GDPR & SEO",
   "Schema Markup",
   "Core Web Vitals",
   "Link Building",
   "Analytics & Reporting",
-  "Dutch Market Expertise",
+  "Nepali Market Expertise",
   "Conversion Optimization",
   "Competitive Analysis",
 ];
@@ -21,24 +21,24 @@ const timeline = [
   {
     year: "2022",
     title: "Started specializing in technical SEO",
-    description: "Began focusing on comprehensive audits, technical optimization, content strategy, and search visibility for international clients and Dutch businesses.",
+    description: "Began focusing on comprehensive audits, technical optimization, content strategy, and search visibility for international clients and Nepali businesses.",
   },
   {
     year: "2024",
-    title: "Established as SEO Expert in Amsterdam",
-    description: "Relocated to Amsterdam and began working directly with Netherlands businesses, understanding local market dynamics and Dutch search behavior.",
+    title: "Established as SEO Expert in Kathmandu",
+    description: "Relocated to Kathmandu and began working directly with Nepal businesses, understanding local market dynamics and Nepal search behavior.",
   },
   {
     year: "Now",
-    title: "Leading SEO for Netherlands market",
-    description: "Helping Dutch businesses and international brands reach the Netherlands market through data-backed SEO, content strategy, and sustainable organic growth.",
+    title: "Leading SEO for Nepal market",
+    description: "Helping Nepal businesses and international brands reach the Nepal market through data-backed SEO, content strategy, and sustainable organic growth.",
   },
 ];
 
 export function generateMetadata(): Metadata {
   return {
-    title: "About Sudip Chaudhary | SEO Expert Amsterdam & Netherlands",
-    description: "Sudip Chaudhary is an SEO expert in Amsterdam, Netherlands, helping Dutch businesses grow with technical SEO, local SEO, content strategy, and measurable organic search results.",
+    title: "About Sudip Chaudhary | SEO Expert Kathmandu & Nepal",
+    description: "Sudip Chaudhary is an SEO expert in Kathmandu, Nepal, helping Nepal businesses grow with technical SEO, local SEO, content strategy, and measurable organic search results.",
     alternates: {
       canonical: `${SITE_CONFIG.url}/about`,
     },
@@ -52,10 +52,10 @@ export default function AboutPage() {
         <section className="max-w-3xl space-y-5">
           <p className="text-sm font-semibold uppercase tracking-[0.24em] text-sky-700">About</p>
           <h1 className="text-[clamp(2.25rem,5vw,4rem)] font-semibold text-slate-900">
-            SEO Expert in Amsterdam helping Netherlands businesses win more Google visibility.
+            SEO Expert in Kathmandu helping Nepal businesses win more Google visibility.
           </h1>
           <p className="text-lg leading-8 text-slate-700" style={{lineHeight: '1.5'}}>
-            I am Sudip Chaudhary, a <strong>specialized SEO expert</strong> based in <strong>Amsterdam, Netherlands</strong>. With <strong>3+ years of hands-on experience</strong>, I focus on delivering <strong>measurable SEO results</strong> for Dutch businesses through technical optimization, local SEO, keyword strategy, content architecture, and link building. My work is built for businesses that want to rank for terms like <strong>SEO expert Amsterdam</strong>, <strong>SEO expert Netherlands</strong>, and <strong>SEO specialist Netherlands</strong>.
+            I am Sudip Chaudhary, a <strong>specialized SEO expert</strong> based in <strong>Kathmandu, Nepal</strong>. With <strong>3+ years of hands-on experience</strong>, I focus on delivering <strong>measurable SEO results</strong> for Nepal businesses through technical optimization, local SEO, keyword strategy, content architecture, and link building. My work is built for businesses that want to rank for terms like <strong>SEO expert Kathmandu</strong>, <strong>SEO expert Nepal</strong>, and <strong>SEO specialist Nepal</strong>.
           </p>
         </section>
 
@@ -93,7 +93,7 @@ export default function AboutPage() {
           <h2 className="text-[clamp(1.75rem,4vw,2.5rem)] font-semibold">Ready to improve your SEO?</h2>
           <p className="mt-4 max-w-2xl text-slate-700">
             If you want a search-led strategy, technical optimization, or a content plan that brings in better leads,
-            I&apos;m here to help you rank higher and reach more customers across Amsterdam and the Netherlands.
+            I&apos;m here to help you rank higher and reach more customers across Kathmandu and Nepal.
           </p>
           <div className="mt-6 flex flex-wrap gap-4">
             <Link href="/contact" className="bg-sky-700 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-800 transition-colors">
@@ -110,14 +110,14 @@ export default function AboutPage() {
           <div className="mt-8 border-t border-sky-100 pt-6">
             <h3 className="text-xl font-semibold text-slate-900">Supporting content</h3>
             <div className="mt-4 grid gap-3 md:grid-cols-3">
-              <Link href="/blog/seo-expert-amsterdam-netherlands" className="border border-sky-100 bg-sky-50 p-4 text-sm font-semibold text-slate-900 transition-colors hover:border-sky-300 hover:bg-sky-100">
-                Why hire an SEO expert in Amsterdam
+              <Link href="/blog/seo-expert-kathmandu-nepal" className="border border-sky-100 bg-sky-50 p-4 text-sm font-semibold text-slate-900 transition-colors hover:border-sky-300 hover:bg-sky-100">
+                Why hire an SEO expert in Kathmandu
               </Link>
-              <Link href="/blog/technical-seo-netherlands-2024" className="border border-sky-100 bg-sky-50 p-4 text-sm font-semibold text-slate-900 transition-colors hover:border-sky-300 hover:bg-sky-100">
-                Technical SEO for Netherlands businesses
+              <Link href="/blog/technical-seo-nepal-2024" className="border border-sky-100 bg-sky-50 p-4 text-sm font-semibold text-slate-900 transition-colors hover:border-sky-300 hover:bg-sky-100">
+                Technical SEO for Nepal businesses
               </Link>
-              <Link href="/blog/local-seo-amsterdam-google-business" className="border border-sky-100 bg-sky-50 p-4 text-sm font-semibold text-slate-900 transition-colors hover:border-sky-300 hover:bg-sky-100">
-                Local SEO Amsterdam guide
+              <Link href="/blog/local-seo-kathmandu-google-business" className="border border-sky-100 bg-sky-50 p-4 text-sm font-semibold text-slate-900 transition-colors hover:border-sky-300 hover:bg-sky-100">
+                Local SEO Kathmandu guide
               </Link>
             </div>
           </div>

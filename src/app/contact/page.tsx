@@ -5,14 +5,14 @@ import { SITE_CONFIG } from "@/lib/config";
 
 export function generateMetadata(): Metadata {
   return {
-    title: "Contact SEO Expert Amsterdam | Best SEO Agency in Netherlands",
-    description: "Contact Sudip Chaudhary for SEO services in Amsterdam and across the Netherlands. Get a consultation for technical SEO, local SEO, content strategy, and growth-focused search marketing.",
+    title: "Contact SEO Expert Kathmandu | Best SEO Agency in Nepal",
+    description: "Contact Sudip Chaudhary for SEO services in Kathmandu and across Nepal. Get a consultation for technical SEO, local SEO, content strategy, and growth-focused search marketing.",
     alternates: {
       canonical: `${SITE_CONFIG.url}/contact`,
     },
     openGraph: {
-      title: "Contact SEO Expert Amsterdam | Best SEO Agency in Netherlands",
-      description: "Schedule an SEO consultation for your Amsterdam or Netherlands business. Get help with technical SEO, local SEO, and content strategy.",
+      title: "Contact SEO Expert Kathmandu | Best SEO Agency in Nepal",
+      description: "Schedule an SEO consultation for your Kathmandu or Nepal business. Get help with technical SEO, local SEO, and content strategy.",
       url: `${SITE_CONFIG.url}/contact`,
     },
   };
@@ -26,10 +26,10 @@ export default function ContactPage() {
           <div className="space-y-6">
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-sky-700">Contact</p>
             <h1 className="text-[clamp(2.35rem,5vw,4.5rem)] font-semibold leading-tight text-slate-900">
-              Speak with an SEO expert in Amsterdam about ranking your Netherlands business.
+              Speak with an SEO expert in Kathmandu about ranking your Nepal business.
             </h1>
             <p className="text-lg leading-8 text-slate-700">
-              If you are comparing the best SEO agency in Netherlands or the best digital marketing agency in Netherlands, this is the page to start with. I help businesses improve visibility with technical SEO, local SEO, content strategy, and focused growth planning.
+              If you are comparing the best SEO agency in Nepal or the best digital marketing agency in Nepal, this is the page to start with. I help businesses improve visibility with technical SEO, local SEO, content strategy, and focused growth planning.
             </p>
 
             <div className="grid gap-4 sm:grid-cols-2">
@@ -42,7 +42,7 @@ export default function ContactPage() {
               <article className="border border-sky-100 bg-white p-5 shadow-sm">
                 <h2 className="text-lg font-semibold text-slate-900">Best fit for</h2>
                 <p className="mt-2 leading-7 text-slate-700">
-                  Amsterdam businesses, Dutch service companies, and brands that need senior SEO support from strategy to execution.
+                  Kathmandu businesses, Nepali service companies, and brands that need senior SEO support from strategy to execution.
                 </p>
               </article>
             </div>
@@ -51,7 +51,8 @@ export default function ContactPage() {
               <h2 className="text-xl font-semibold text-slate-900">Direct contact</h2>
               <div className="mt-4 space-y-3 text-slate-700">
                 <p>Email: <a href="mailto:chsudip28@gmail.com" className="text-sky-700 hover:underline">chsudip28@gmail.com</a></p>
-                <p>Location: <strong>Amsterdam, Netherlands</strong></p>
+                <p>Phone: <a href="tel:+9779808376303" className="text-sky-700 hover:underline">+977 9808376303</a></p>
+                <p>Location: <strong>Kathmandu, Nepal</strong></p>
                 <p>
                   LinkedIn: <a href="https://www.linkedin.com/in/sudip-chaudhary" target="_blank" rel="noreferrer" className="text-sky-700 hover:underline">linkedin.com/in/sudip-chaudhary</a>
                 </p>
@@ -85,19 +86,19 @@ export default function ContactPage() {
 
         <section className="grid gap-4 lg:grid-cols-3">
           <article className="border border-sky-100 bg-white p-6 shadow-sm">
-            <h3 className="text-xl font-semibold text-slate-900">SEO Expert Amsterdam</h3>
+            <h3 className="text-xl font-semibold text-slate-900">SEO Expert Kathmandu</h3>
             <p className="mt-3 leading-7 text-slate-700">
-              Contact me if you want local SEO strategy and hands-on execution from someone based in Amsterdam.
+              Contact me if you want local SEO strategy and hands-on execution from someone based in Kathmandu.
             </p>
           </article>
           <article className="border border-sky-100 bg-white p-6 shadow-sm">
-            <h3 className="text-xl font-semibold text-slate-900">SEO Expert Netherlands</h3>
+            <h3 className="text-xl font-semibold text-slate-900">SEO Expert Nepal</h3>
             <p className="mt-3 leading-7 text-slate-700">
-              This page supports Dutch businesses that need search visibility beyond a single city.
+              This page supports Nepali businesses that need search visibility beyond a single city.
             </p>
           </article>
           <article className="border border-sky-100 bg-white p-6 shadow-sm">
-            <h3 className="text-xl font-semibold text-slate-900">Best SEO Agency in Netherlands</h3>
+            <h3 className="text-xl font-semibold text-slate-900">Best SEO Agency in Nepal</h3>
             <p className="mt-3 leading-7 text-slate-700">
               For higher-intent searches, this contact page turns interest into a real consultation request.
             </p>
