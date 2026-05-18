@@ -55,7 +55,7 @@ export default function HowToRankNepal() {
         <p className="mt-3 text-slate-700">Start with a seed list and expand using Google Suggest, People Also Ask, and local modifiers (&quot;Kathmandu&quot;, &quot;Nepal&quot;). Prioritize high-intent commercial keywords for service pages and informational keywords for blog posts. Keep keyword density natural (1–1.5%).</p>
 
         <h3 className="mt-4 font-semibold">Content mapping</h3>
-        <p className="mt-2 text-slate-700">Create dedicated pages for high-priority keywords (e.g., "SEO services in Nepal") and clusters of blog posts that support those pillars. Each service page should be 1,200–1,800 words and include FAQs and local context.</p>
+        <p className="mt-2 text-slate-700">Create dedicated pages for high-priority keywords (e.g., &quot;SEO services in Nepal&quot;) and clusters of blog posts that support those pillars. Each service page should be 1,200–1,800 words and include FAQs and local context.</p>
 
         <h2 className="mt-6 text-xl font-semibold">On-page optimization checklist</h2>
         <ul className="mt-3 list-disc pl-5 text-slate-700">
