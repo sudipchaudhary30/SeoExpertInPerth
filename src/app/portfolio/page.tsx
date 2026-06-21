@@ -6,8 +6,8 @@ import { SITE_CONFIG } from "@/lib/config";
 export function generateMetadata(): Metadata {
 	return {
 		title: "SEO Case Studies | Best SEO Agency in Nepal",
-		description: "Explore SEO case studies and portfolio results from Sudip Chaudhary, an SEO expert in Kathmandu helping Nepal businesses with technical SEO, local SEO, content strategy, and organic growth.",
-		keywords: "SEO case studies, SEO portfolio, SEO expert Kathmandu, SEO expert Nepal, best SEO agency in Nepal, technical SEO Nepal, local SEO Kathmandu",
+		description: "Explore SEO case studies and portfolio results from Sudip Chaudhary, an SEO expert in Nepal helping Nepal businesses with technical SEO, local SEO, content strategy, and organic growth.",
+		keywords: "SEO case studies, SEO portfolio, SEO expert Nepal, best SEO agency in Nepal, technical SEO Nepal, local SEO Nepal",
 		alternates: {
 			canonical: `${SITE_CONFIG.url}/portfolio`,
 		},
@@ -27,7 +27,7 @@ export default function PortfolioPage() {
 				<section className="max-w-3xl space-y-5">
 					<p className="text-sm font-semibold uppercase tracking-[0.24em] text-sky-700">Portfolio</p>
 					<h1 className="text-[clamp(2.4rem,5vw,4.5rem)] font-semibold leading-tight text-slate-900">
-						SEO case studies for Kathmandu and Nepal businesses.
+						SEO case studies for Nepal businesses.
 					</h1>
 					<p className="text-lg leading-8 text-slate-700">
 						These projects show how I approach technical SEO, local search visibility, content strategy, and ranking growth for businesses that want the best SEO agency in Nepal-level execution.
@@ -36,7 +36,7 @@ export default function PortfolioPage() {
 
 				<section className="grid gap-4 md:grid-cols-3">
 					<article className="border border-sky-100 bg-white p-6 shadow-sm">
-						<h2 className="text-xl font-semibold text-slate-900">SEO expert Kathmandu</h2>
+						<h2 className="text-xl font-semibold text-slate-900">SEO expert Nepal</h2>
 						<p className="mt-3 leading-7 text-slate-700">Portfolio work centered on local market relevance, search intent, and lead generation.</p>
 					</article>
 					<article className="border border-sky-100 bg-white p-6 shadow-sm">

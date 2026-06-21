@@ -9,7 +9,7 @@ export function generateMetadata(): Metadata {
   return {
     title: "SEO Blog | Nepal SEO Strategy, Technical SEO, and Local Search",
     description: "Read practical SEO articles for Nepal businesses on technical SEO, local SEO, keyword research, content strategy, and how to rank higher on Google.",
-    keywords: "SEO blog, SEO articles, SEO tips Nepal, technical SEO Nepal, local SEO Kathmandu, content strategy Nepal, best SEO agency in Nepal",
+    keywords: "SEO blog, SEO articles, SEO tips Nepal, technical SEO Nepal, local SEO Nepal, content strategy Nepal, best SEO agency in Nepal",
     alternates: {
       canonical: `${SITE_CONFIG.url}/blog`,
     },
@@ -34,14 +34,14 @@ export default function Blog() {
             SEO Blog for Nepal businesses that want better rankings.
           </h1>
           <p className="mt-4 text-xl leading-8 text-slate-600">
-            Expert articles on technical SEO, local SEO, content strategy, keyword research, and ranking opportunities for Kathmandu and across Nepal.
+            Expert articles on technical SEO, local SEO, content strategy, keyword research, and ranking opportunities across Nepal.
           </p>
         </div>
 
         <section className="mt-10 grid gap-4 md:grid-cols-3">
           <Link href="/seo-services" className="border border-sky-100 bg-white p-6 shadow-sm transition-colors hover:border-sky-300 hover:bg-sky-50">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">Service page</p>
-            <h2 className="mt-2 text-xl font-semibold text-slate-900">SEO services in Kathmandu</h2>
+            <h2 className="mt-2 text-xl font-semibold text-slate-900">SEO services in Nepal</h2>
             <p className="mt-3 leading-7 text-slate-700">Use this if you are comparing the best SEO agency in Nepal and want a clear service overview.</p>
           </Link>
           <Link href="/contact" className="border border-sky-100 bg-white p-6 shadow-sm transition-colors hover:border-sky-300 hover:bg-sky-50">
@@ -52,7 +52,7 @@ export default function Blog() {
           <Link href="/about" className="border border-sky-100 bg-white p-6 shadow-sm transition-colors hover:border-sky-300 hover:bg-sky-50">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">About</p>
             <h2 className="mt-2 text-xl font-semibold text-slate-900">Why work with Sudip</h2>
-            <p className="mt-3 leading-7 text-slate-700">Learn how the SEO strategy is structured for Kathmandu and Nepal businesses.</p>
+            <p className="mt-3 leading-7 text-slate-700">Learn how the SEO strategy is structured for Nepal businesses.</p>
           </Link>
         </section>
 

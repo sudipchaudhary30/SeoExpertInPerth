@@ -6,6 +6,7 @@
   "homepage": "https://www.sudipchaudhary101.com.np",
   "private": true,
   "scripts": {
+    "predev": "node -e \"const fs=require('fs');fs.rmSync('.next',{recursive:true,force:true});\"",
     "dev": "cross-env NEXT_IGNORE_INCORRECT_LOCKFILE=1 next dev",
     "build": "cross-env NEXT_IGNORE_INCORRECT_LOCKFILE=1 next build",
     "start": "npx serve out",

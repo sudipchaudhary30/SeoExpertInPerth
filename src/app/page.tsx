@@ -9,14 +9,14 @@ import path from "path";
 export function generateMetadata(): Metadata {
   return {
     title: "Best SEO Services in Nepal — Rank #1 on Google | " + SITE_CONFIG.name,
-    description: "Best SEO services in Nepal. We help Nepal businesses rank on Google Nepal with technical SEO, local SEO Kathmandu, content strategy, and measurable organic growth.",
+    description: "Best SEO services in Nepal. We help Nepal businesses rank on Google Nepal with technical SEO, local SEO, content strategy, and measurable organic growth.",
     keywords: "SEO services in Nepal, best SEO agency Nepal, SEO company Kathmandu, local SEO Nepal, SEO consultant Nepal, affordable SEO packages Nepal",
     alternates: {
       canonical: SITE_CONFIG.url,
     },
     openGraph: {
       title: "Best SEO Services in Nepal — Rank #1 on Google | " + SITE_CONFIG.name,
-      description: "We help Nepal businesses rank on Google Nepal with technical SEO, local SEO Kathmandu, and content-led growth.",
+      description: "We help Nepal businesses rank on Google Nepal with technical SEO, local SEO, and content-led growth.",
       url: SITE_CONFIG.url,
       siteName: SITE_CONFIG.name,
       locale: SITE_CONFIG.locale,
@@ -75,7 +75,7 @@ export default function Home() {
       <Hero />
       <section className="border-b border-sky-100 bg-white py-10">
         <div className="container">
-          <h1 className="text-[clamp(2.25rem,5vw,4rem)] font-semibold text-slate-900">Best SEO Services in Nepal — Rank #1 on Google</h1>
+          <h1 className="text-[clamp(2.25rem,5vw,4rem)] font-semibold text-slate-900">Best SEO Service in Nepal — Rank #1 on Google</h1>
           <p className="mt-4 text-lg text-slate-700 max-w-2xl">Local Nepal-focused SEO services: technical SEO, local SEO Kathmandu, content strategy, and affordable packages tailored for Nepal businesses.</p>
           <div className="mt-6 flex items-center gap-4">
             <a href="/free-audit" className="bg-sky-700 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-800 transition-colors">Get Free SEO Audit</a>
@@ -98,7 +98,7 @@ export default function Home() {
           <div className="grid gap-4 md:grid-cols-3">
             <article className="border border-sky-100 bg-sky-50 p-6 shadow-sm">
               <h3 className="text-xl font-semibold text-slate-900">SEO Expert Kathmandu</h3>
-              <p className="mt-3 leading-7 text-slate-700">For businesses that want an SEO expert in Kathmandu with hands-on strategy, audits, and ranking improvements.</p>
+              <p className="mt-3 leading-7 text-slate-700">For businesses that want an SEO expert in Nepal with hands-on strategy, audits, and ranking improvements.</p>
             </article>
             <article className="border border-sky-100 bg-sky-50 p-6 shadow-sm">
               <h3 className="text-xl font-semibold text-slate-900">SEO Specialist Nepal</h3>

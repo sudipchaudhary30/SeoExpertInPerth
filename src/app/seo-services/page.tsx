@@ -32,7 +32,7 @@ const services = [
 const faqs = [
   {
     question: "Which keywords is this page meant to rank for?",
-    answer: "The page is built around SEO expert Kathmandu, SEO expert Nepal, SEO specialist Nepal, best SEO agency in Nepal, and best digital marketing agency in Nepal.",
+    answer: "The page is built around SEO expert Nepal, SEO specialist Nepal, best SEO agency in Nepal, and best digital marketing agency in Nepal.",
   },
   {
     question: "Is this a service page or a blog post?",
@@ -46,8 +46,8 @@ const faqs = [
 
 export function generateMetadata(): Metadata {
   return {
-    title: "SEO Services in Kathmandu | Best SEO Agency in Nepal",
-    description: "SEO services in Kathmandu and across the Nepal. Technical SEO, local SEO, content strategy, and link building for businesses looking for the best SEO agency in Nepal and best digital marketing agency in Nepal.",
+    title: "Best SEO Service in Nepal | Best SEO Agency in Nepal",
+    description: "SEO services across Nepal. Technical SEO, local SEO, content strategy, and link building for businesses looking for the best SEO service in Nepal and best digital marketing agency in Nepal.",
     keywords: [
       "SEO services Kathmandu",
       "SEO services Nepal",
@@ -63,7 +63,7 @@ export function generateMetadata(): Metadata {
       canonical: `${SITE_CONFIG.url}/seo-services`,
     },
     openGraph: {
-      title: "SEO Services in Kathmandu | Best SEO Agency in Nepal",
+      title: "Best SEO Service in Nepal | Best SEO Agency in Nepal",
       description: "Technical SEO, local SEO, content strategy, and link building for Nepali businesses that want better rankings and more qualified leads.",
       url: `${SITE_CONFIG.url}/seo-services`,
       type: "website",
@@ -79,7 +79,7 @@ export default function SeoServicesPage() {
           <div className="max-w-3xl space-y-5">
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-sky-700">SEO Services</p>
             <h1 className="text-[clamp(2.4rem,5vw,4.5rem)] font-semibold leading-tight text-slate-900">
-              SEO Services in Kathmandu for businesses searching for the best SEO agency in Nepal.
+              Best SEO Service in Nepal for businesses searching for the best SEO agency in Nepal.
             </h1>
             <p className="text-lg leading-8 text-slate-700">
               I help Nepali businesses grow with technical SEO, local SEO, content strategy, and link building. This page is built to support the highest-value commercial searches while staying clear, useful, and conversion focused.
@@ -100,7 +100,7 @@ export default function SeoServicesPage() {
               </p>
             </article>
             <article className="border border-sky-100 bg-white p-6 shadow-sm">
-              <h2 className="text-xl font-semibold text-slate-900">SEO Expert Kathmandu</h2>
+              <h2 className="text-xl font-semibold text-slate-900">SEO Expert Nepal</h2>
               <p className="mt-3 leading-7 text-slate-700">
                 Reinforces the local authority signal from the homepage and keeps the keyword cluster tightly connected.
               </p>
